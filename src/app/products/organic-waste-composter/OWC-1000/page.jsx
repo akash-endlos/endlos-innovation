@@ -84,9 +84,6 @@ const page = () => {
               <div className="card-position">
                 <div className=" p-4">
                   <strong className=" m-0 p-0 fs-2">END OWC 1000</strong>
-                  {/* <p className='fs-2'>TruLaser 3030 / 3040</p> */}
-                  {/* <p>Optimum quality with CO2 lasers</p> */}
-                  {/* <Button sx={{ background: "#FF7722" }} variant='contained'>Request Offer</Button> */}
                 </div>
               </div>
             </div>
@@ -111,11 +108,7 @@ const page = () => {
                   aria-label="basic tabs example"
                 >
                   <StyledTab label="Overview" {...a11yProps(0)} />
-                  {/* <StyledTab label="Technical Data" {...a11yProps(2)} /> */}
                   <StyledTab label="Technical Data" {...a11yProps(1)} />
-                  {/* <StyledTab label="Equipment" {...a11yProps(3)} />
-                  <StyledTab label="Software" {...a11yProps(4)} />
-                  <StyledTab label="Automation" {...a11yProps(5)} /> */}
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
@@ -123,85 +116,8 @@ const page = () => {
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent />
-                {/* <div className='mx-5 my-5'>
-                  <div className='row mx-5'>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' /> Perfect introduction, perfect addition</div>
-                      <div className='lead pb-5'>Perfect economy even with low to medium utilization</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' /> High quality</div>
-                      <div className='lead pb-3'>Intuitive operation with Touchpoint control, and easy to get started thanks to integrated cutting data</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' /> Save money, protect the environment</div>
-                      <div className='lead pb-5'>Energy-efficient process cooler for laser and machine</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' /> Safe laser cutting</div>
-                      <div className='lead pb-3'>Maximum safety during operation thanks to enclosed protective housing and beam guard</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' /> Safe laser cutting</div>
-                      <div className='lead pb-3'>Maximum safety during operation thanks to enclosed protective housing and beam guard</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                    <div className='col-xl-6'>
-                      <div className='py-3 fw-bold d-flex align-items-center gap-2 lead'> <FaSquare color='#FF7722' />Automation made easy</div>
-                      <div className='lead pb-5'>Autonomous work is possible</div>
-                      <div className='d-flex align-items-center '>
-                        <hr style={{ width: "600px" }} />
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-                {/* <ProductCarousel MarginValue={'my-5'} textClasses={'text-center py-5'} /> */}
               </TabPanel>
-              {/* <TabPanel value={value} index={2}>
-                <TechnicalComponent />
-              </TabPanel> */}
-              {/* <TabPanel value={value} index={3}>
-                <Equipment/>
-              </TabPanel>
-              <TabPanel value={value} index={4}>
-              <Automation/>
-              </TabPanel>
-              <TabPanel value={value} index={5}>
-                <Automation/>
-              </TabPanel> */}
             </Box>
-            {/* <div className='container-background mt-5'>
-                <div className='inner-container'>
-                    <div className='d-flex align-items-start'>
-                        <AiOutlineRead size={90} />
-                    </div>
-                    <div className='icon-container w-50'>
-                        <p className='fs-4'>There has never been so much TRUMPF for your buck</p>
-                        <p className='lead'>The new TruLaser Series 1000 is available with financing options for every budget to help you stay on top of your costs. Do you have questions or want to find out more about a financing option without commitment? Get in touch with us – simple and non-binding!</p>
-                    </div>
-                    <div className='d-flex align-items-end'>
-                        <button className='button-container'>Find out more</button>
-                    </div>
-                </div>
-            </div> */}
-            {/* <div className='text-center mt-5'>
-              <p className='pt-5 fs-2'>you may also find these interesting topics</p>
-              <ImageCardContainer />
-            </div> */}
           </div>
           <div className="col-lg-3 mt-4 mt-lg-0">
             <div className="p-5">
@@ -219,40 +135,6 @@ const page = () => {
               <span className="text-success pointer">
                 Email <BsArrowRight />{" "}
               </span>
-              {/* <div className="mt-4 ">
-                <p className="fs-4">Services</p>
-                <div className='d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center'>
-                  <hr style={{ width: "500px" }} />
-                </div>
-                <div className="d-flex gap-4 align-items-center mb-4">
-                  <div>Icon</div>
-                  <div>
-                    <p className="m-0 p-0">Training Courses</p>
-                    <span className="text-success pointer">Find out More <BsArrowRight /> </span>
-                  </div>
-                </div>
-                <div className="d-flex gap-4 align-items-center mb-4">
-                  <div>Icon</div>
-                  <div>
-                    <p className="m-0 p-0">Training Courses</p>
-                    <span className="text-success pointer">Find out More <BsArrowRight /> </span>
-                  </div>
-                </div>
-                <div className="d-flex gap-4 align-items-center mb-4">
-                  <div>Icon</div>
-                  <div>
-                    <p className="m-0 p-0">Training Courses</p>
-                    <span className="text-success pointer">Find out More <BsArrowRight /> </span>
-                  </div>
-                </div>
-                <div className="d-flex gap-4 align-items-center mb-4">
-                  <div>Icon</div>
-                  <div>
-                    <p className="m-0 p-0">Training Courses</p>
-                    <span className="text-success pointer">Find out More <BsArrowRight /> </span>
-                  </div>
-                </div>
-              </div> */}
               <div className="mt-4">
                 <p className="fs-4"> Downloads</p>
                 <div className="d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center">

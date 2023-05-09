@@ -26,17 +26,6 @@ const page = () => {
   const cls = visible ? "visible-page" : "hidden-page";
   return (
     <>
-      {/* <ul
-        className={`d-flex justify-content-center align-items-center gap-2 page-nav gap-5 ${cls} ${
-          position < 100 ? "d-none" : "position-sticky"
-        }`}
-      >
-        <li className="pointer">Challenges</li>
-        <li className="pointer">Solutions</li>
-        <li className="pointer">Innovations and Success</li>
-        <li className="pointer">Smart production</li>
-        <li className="pointer">Case Studies</li>
-      </ul> */}
       <div className="image-section">
         <Image src="/assets/1.jpg" fill />
         <p className="img-text">Case Studies</p>
@@ -118,20 +107,6 @@ const page = () => {
                     more sustainable and circular economy.
                   </p>
                 </div>
-                {/* <div className="d-flex justify-content-center align-items-center flex-column gap-2">
-                  <img
-                    src="https://www.endlos.com/-/media/endlos-corporate/images/system/contact_images/drake_larry.jpg"
-                    height={140}
-                    className="rounded border rounded-circle"
-                  />
-                  <p className="w-50 fs-2 text-center">
-                    For our customers in the automotive industry, we bundle all
-                    endlos competencies, from engineering to testing to service.
-                    With endlos, they always have a reliable partner they can
-                    count on.
-                  </p>
-                  <small>Larry Drake, CEO endlos Automotive Division</small>
-                </div> */}
                 <div className="px-5 py-1">
                   <p className="fs-3 text-secondary">
                     Solutions for the Recycling Industry
@@ -208,49 +183,6 @@ const page = () => {
                     the recycling industry.
                   </p>
                 </div>
-                {/* <div className="px-5 py-4">
-                  <p className="fs-2 text-secondary">
-                    Innovations and successes for the automotive industry
-                  </p>
-                  <div className="d-flex flex-xl-row justify-content-between flex-sm-column flex-column flex-md-column align-items-center gap-5">
-                    <div className="d-flex flex-column">
-                      <img src="https://www.endlos.com/-/media/endlos-corporate/images/system/contact_images/drake_larry.jpg" />
-                      <small>
-                        Automated car body construction: In our easily
-                        convertible production cell, four robots joint the
-                        components precisely within a few seconds.
-                      </small>
-                    </div>
-                    <div className="py-2">
-                      <ul>
-                        <li>
-                          The robots of our KR QUANTEC series are ideal for
-                          catering to various requirements of the automotive
-                          industry. For example, our portfolio includes the KR
-                          QUANTEC nano F exclusive washers, the precise robots
-                          of the KR QUANTEC extra family or the powerful
-                          industrial robots of the KR QUANTEC ultra family.
-                        </li>
-                        <li>
-                          The robots of our KR QUANTEC series are ideal for
-                          catering to various requirements of the automotive
-                          industry. For example, our portfolio includes the KR
-                          QUANTEC nano F exclusive washers, the precise robots
-                          of the KR QUANTEC extra family or the powerful
-                          industrial robots of the KR QUANTEC ultra family.
-                        </li>
-                        <li>
-                          The robots of our KR QUANTEC series are ideal for
-                          catering to various requirements of the automotive
-                          industry. For example, our portfolio includes the KR
-                          QUANTEC nano F exclusive washers, the precise robots
-                          of the KR QUANTEC extra family or the powerful
-                          industrial robots of the KR QUANTEC ultra family.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div> */}
                 <div className="px-3 py-2">
                   <p className="fs-2 text-secondary">
                     Innovations and successes for the Recycling Industry

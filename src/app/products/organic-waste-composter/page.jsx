@@ -202,12 +202,6 @@ const page = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="px-5 pt-4">
-                    <p className="fs-2 text-center text-secondary">
-                      You might also be interested in
-                    </p>
-                    <ImageCardContainer />
-                  </div> */}
                 </div>
               </div>
             </div>

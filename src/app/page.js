@@ -4,7 +4,6 @@ import "./page.css";
 import ImageCardContainer from "./components/page-components/image-card-container/ImageCardContainer";
 import CatelogWrapper from "./components/page-components/catelog-wrapper/CatelogWrapper";
 import UpperContainer from "./components/page-components/upper-container/UpperContainer";
-import MapWrapper from "./components/page-components/map-wrapper/MapWrapper";
 import {
   IndustriesCarouselSection,
   IndustriesImageCardContainer,
@@ -26,7 +25,6 @@ export default function Home() {
         <div className="horizontal-rule" />
       </div>
       <div className="wrapper-case-studies">
-        {/* <MapWrapper /> */}
        <BlogComponent/>
       </div>
     </div>
