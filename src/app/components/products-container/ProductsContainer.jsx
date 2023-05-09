@@ -11,7 +11,7 @@ const ProductsContainer = ({ products }) => {
                             <div className="col-xl-6 col-lg-12">
                                 <img
                                     className="w-100 h-100 shadow"
-                                    src="/images/RVM_eco_765x430_1.jpg"
+                                    src={item.src}
                                 />
                             </div>
                             <div className="col-xl-6 col-lg-12">
