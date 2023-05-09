@@ -14,7 +14,7 @@ const page = () => {
     <div className="row product-page-container">
       <div className="col-xl-9">
         <div className="row">
-          <img src="/assets/1.jpg" width={1400} />
+          <img src="/images/RVM_family_1600x900.jpg" width={1400} />
           <div className="col-sm-10 offset-sm-1">
             <div className="row">
               <div className="col-sm-12">
