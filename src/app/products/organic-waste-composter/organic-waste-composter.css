@@ -84,7 +84,7 @@
 
 .responsive-container {
     position: relative;
-    top: -262px;
+    top: -150px;
     background: #FFFFFF;
 }
 @media only screen and (max-width: 500px) {

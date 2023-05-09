@@ -7,6 +7,8 @@ import { Divider } from "@mui/material";
 import { BsArrowRight } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import ImageCardContainer from "@/app/components/page-components/image-card-container/ImageCardContainer";
+import ProductsContainer from "@/app/components/products-container/ProductsContainer";
+import { rvmProducts } from "@/app/all-content/rvmProducts";
 
 const page = () => {
   let [over, setOver] = React.useState(false);
@@ -44,8 +46,8 @@ const page = () => {
                       integrated into larger systems.
                     </p>
                   </div>
-
-                  <div className="container my-5">
+                   <ProductsContainer products={rvmProducts}/>
+                  {/* <div className="container my-5">
                     <div className="row gap-md-2 gap-xl-0">
                       <div className="col-xl-6 col-lg-12">
                         <img
@@ -201,7 +203,7 @@ const page = () => {
                         <div className="btn btn-dark">To The Product</div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <div className="px-5 pt-4">
                     <p className="fs-2 text-center text-secondary">
                       You might also be interested in
