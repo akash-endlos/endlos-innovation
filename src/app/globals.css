@@ -1,0 +1,58 @@
+:root {
+  --max-width: 1920px;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color: #fff;
+  color: #595d61;
+  font-family: endlos-bulo,Calibri,Segoe UI,Helvetica,Arial,Sans-Serif;
+  font-size: 1rem;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+  line-height: 1.375;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+
+@font-face {
+  font-family: 'Tesla';
+  src: url('/assets/fonts/TESLA.woff');
+}
+.horizontal-rule{
+  color: inherit;
+  border-bottom:1px solid gray;
+  opacity: .25;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.pointer{
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+  padding: 1rem 0;
+}
+.text-color{
+  color: #FF7722;
+}
+.endlos-text-justify{
+  text-align: justify;
+}

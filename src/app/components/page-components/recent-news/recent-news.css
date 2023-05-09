@@ -1,0 +1,13 @@
+.news-background{
+    background-color: #267A9B;
+}
+.line{
+    width: 180px;
+    color: #FFFF;
+    height: 2px;
+}
+.line-wrapper{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}

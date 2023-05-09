@@ -1,0 +1,63 @@
+.catelog-download {
+    background-color: #FF7722;
+    border: 2px solid #FF7722;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 280px;
+  }
+
+  .catelog-download:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #FF7722;
+    color: #FF7722;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.main-catelog-wrapper {
+    background-color: #FFFFFF;
+}
+
+.content-wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.catelog-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.catelog-inner-content {
+    width: 100%;
+}
+
+.catelog-paragraph-content {
+    width: 90%;
+
+}
+
+@media screen and (max-width: 992px) {
+    .catelog-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+
+    }
+}

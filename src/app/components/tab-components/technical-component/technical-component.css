@@ -1,0 +1,10 @@
+.table-upper-color{
+    background: #CCCCCC;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .technical-container{
+        overflow-x: scroll;
+        max-width: 80%;
+  }}
+  
