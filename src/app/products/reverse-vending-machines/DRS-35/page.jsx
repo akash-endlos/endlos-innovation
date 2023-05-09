@@ -23,6 +23,7 @@ import ImageCardContainer from "@/app/components/page-components/image-card-cont
 import NewProductCarousel from "@/app/components/feature/product-carousel/NewProductCarousel";
 import { FaSquare } from "react-icons/fa";
 import { rvmDRSNEW35 } from "@/app/all-content/products/rvmDRS35NEW";
+import { rvmDRS35EvenOddImageData } from "@/app/all-content/products/rvmDRS35EvenOddImages";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -78,7 +79,7 @@ const page = () => {
           <div className="col-lg-9 py-5">
             <div className="position-relative">
               <img
-                src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/1/1/csm_TruLaser-3030-L20-product-picture_071755114c_37d7b79484.jpg"
+                src="/images/RVM_DRS_35_1440x678.jpg"
                 alt="Product Image"
                 className="img-fluid"
               />
@@ -120,7 +121,7 @@ const page = () => {
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
-                <Overview />
+              <Overview EvenOddImagesData={rvmDRS35EvenOddImageData} />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent tableData={rvmDRSNEW35} />
