@@ -86,7 +86,7 @@ const page = () => {
               />
               <div className="card-position">
                 <div className=" p-4">
-                  <strong className=" m-0 p-0 fs-2">RVM DRS 22</strong>
+                  <strong className=" m-0 p-0">RVM DRS 22</strong>
                   {/* <p className='fs-2'>TruLaser 3030 / 3040</p> */}
                   {/* <p>Optimum quality with CO2 lasers</p> */}
                   {/* <Button sx={{ background: "#FF7722" }} variant='contained'>Request Offer</Button> */}
