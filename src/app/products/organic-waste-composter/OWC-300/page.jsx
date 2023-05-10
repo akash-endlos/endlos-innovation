@@ -78,13 +78,13 @@ const page = () => {
           <div className="col-lg-9 py-5">
             <div className="position-relative">
               <img
-                src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/1/1/csm_TruLaser-3030-L20-product-picture_071755114c_37d7b79484.jpg"
+                src="/images/OWC_300_1440x678.jpg"
                 alt="Product Image"
                 className="img-fluid"
               />
               <div className="card-position">
                 <div className=" p-4">
-                  <strong className=" m-0 p-0 fs-2">END OWC 300</strong>
+                  <strong className=" m-0 p-0">END OWC 300</strong>
                 </div>
               </div>
             </div>
