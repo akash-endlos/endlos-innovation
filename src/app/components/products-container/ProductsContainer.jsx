@@ -8,13 +8,13 @@ const ProductsContainer = ({ products }) => {
                 products.map((item, index) => (
                     <div key={index} className="container my-5">
                         <div className="row gap-xl-0">
-                            <div className="col-12 col-xl-6 col-lg-7">
+                            <div className="col-12 col-xl-6 col-lg-6">
                                 <img
                                     className="img-fluid shadow"
                                     src={item.src}
                                 />
                             </div>
-                            <div className="col-12 col-xl-6 col-lg-5">
+                            <div className="col-12 col-xl-6 col-lg-6">
                                     <p className="fs-2">{item.title}</p>
                                     <p>
                                         {item.subtitle}
