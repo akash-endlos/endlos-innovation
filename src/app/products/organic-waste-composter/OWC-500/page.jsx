@@ -22,6 +22,7 @@ import { usePathname } from "next/navigation";
 import ImageCardContainer from "@/app/components/page-components/image-card-container/ImageCardContainer";
 import NewProductCarousel from "@/app/components/feature/product-carousel/NewProductCarousel";
 import { FaSquare } from "react-icons/fa";
+import { owc500EvenOddImageData } from "@/app/all-content/products/owc500EvenOddImageData";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -112,7 +113,7 @@ const page = () => {
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
-                <Overview />
+              <Overview EvenOddImagesData={owc500EvenOddImageData} />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent />

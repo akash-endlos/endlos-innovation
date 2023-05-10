@@ -6,7 +6,8 @@ import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import { BsArrowRight } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
-import ImageCardContainer from "@/app/components/page-components/image-card-container/ImageCardContainer";
+import ProductsContainer from "@/app/components/products-container/ProductsContainer";
+import { owcProducts } from "@/app/all-content/owcProducts";
 
 const page = () => {
   let [over, setOver] = React.useState(false);
@@ -32,7 +33,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="container py-2">
-                    <p className="text-center fs-2 text-dark">Fiber laser</p>
+                    <p className="text-center fs-2 text-dark">Organic Waste Composter</p>
                     <p className="px-4 fs-5">
                       A compact footprint, long service life, excellent single
                       mode (SM) beam quality up to 2 kW or multiple mode (MM) up
@@ -44,164 +45,7 @@ const page = () => {
                       integrated into larger systems.
                     </p>
                   </div>
-
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM Eco</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12 position-relative">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                        <div className="ribbon">New</div>
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM Pro</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM Premium</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM DRS 11</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM DRS 22</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container my-5">
-                    <div className="row gap-md-2 gap-xl-0">
-                      <div className="col-xl-6 col-lg-12">
-                        <img
-                          className="w-100 shadow"
-                          src="https://www.trumpf.com/filestorage/TRUMPF_Processed/_processed_/f/b/csm_TRUMPF-lasers-fiber-lasers-TruFiber-new-generation-product-picture_da76ff46f5_c7a1592c0d.jpg"
-                        />
-                      </div>
-                      <div className="col-xl-6 col-lg-12">
-                        <div>
-                          <p className="fs-2">RVM DRS 35</p>
-                          <p>
-                            The fiber-based solid-state laser, TruFiber, is the
-                            precision laser for delicate work. It stands out
-                            with its single-mode beam quality and the variety of
-                            power classes available. While the lower power
-                            classes of the fiber laser (up to 1 kW) are
-                            optimally suited for laser precision cutting and
-                            welding, the higher power classes (over 1 kW) shine
-                            when it comes to wobble welding.
-                          </p>
-                        </div>
-                        <div className="btn btn-dark">To The Product</div>
-                      </div>
-                    </div>
-                  </div>
+                  <ProductsContainer products={owcProducts}/>
                 </div>
               </div>
             </div>

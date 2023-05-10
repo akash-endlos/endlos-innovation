@@ -34,7 +34,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="container py-2">
-                    <p className="text-center fs-2 text-dark">Fiber laser</p>
+                    <p className="text-center fs-2 text-dark">Reverse Vending Machines</p>
                     <p className="px-4 fs-5">
                       A compact footprint, long service life, excellent single
                       mode (SM) beam quality up to 2 kW or multiple mode (MM) up
