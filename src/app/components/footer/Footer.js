@@ -102,7 +102,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="d-flex flex-row justify-content-sm-between justify-content-xl-end align-items-center">
-            <div className="d-flex flex-row justify-content-sm-evenly justify-content-xl-end align-items-center w-100 gap-lg-4 gap-4">
+            <div className="d-flex flex-row justify-content-sm-evenly justify-content-xl-end flex-wrap align-items-center w-100 gap-lg-4 gap-4">
               <Link
                 className="pointer"
                 href="https://www.facebook.com/"

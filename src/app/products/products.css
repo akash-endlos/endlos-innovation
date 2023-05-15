@@ -7,6 +7,13 @@
 
 }
 
+.bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
 .img-text {
     position: absolute;
     bottom: 10px;
@@ -15,6 +22,7 @@
     color: white;
     font-size: 50px;
 }
+
 @media only screen and (max-width: 500px) {
     .img-text {
         position: absolute;
@@ -25,7 +33,8 @@
         font-size: 50px;
         left: 15%;
     }
-  }
+}
+
 .endlos-containe {
     width: 100%;
 }
@@ -33,10 +42,12 @@
 .contact-us-section {
     background-color: #ECEDEE;
 }
+
 .contact-us-border:hover {
     color: #FF7722;
 }
-.mail-middle{
+
+.mail-middle {
     position: relative;
     width: 100%;
     max-width: 100%;

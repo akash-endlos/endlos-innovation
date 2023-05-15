@@ -7,15 +7,21 @@ import { Divider } from "@mui/material";
 import { ImMail4 } from "react-icons/im";
 import Link from "next/link";
 import { ProductsImageCardContainer } from "../all-content/products";
+import bg from '../../../public/assets/1.jpg'
 
 const Industries = () => {
   let [over, setOver] = React.useState(false);
 
   return (
     <div className="endlos-container">
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Products</p>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Products</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="d-flex align-items-center justify-content-center pt-5 pb-4">
         <p className="w-50 text-justify fs-5 text-secondary">
@@ -45,9 +51,8 @@ const Industries = () => {
             <div
               onMouseOver={() => setOver(true)}
               onMouseOut={() => setOver(false)}
-              className={`${
-                !over ? "text-secondary" : "contact-us-border"
-              } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
+              className={`${!over ? "text-secondary" : "contact-us-border"
+                } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
             >
               <div className=" d-flex align-items-center flex-column gap-2">
                 <div className={` p-3 justify-content-center`}>

@@ -7,15 +7,21 @@ import { ImMail4 } from "react-icons/im";
 import { IndustriesImageCardContainer } from "../all-content/Industries";
 import Link from "next/link";
 import ContactForm from "../components/contact-us-form/ContactForm";
+import bg from '../../../public/assets/1.jpg'
 
 const Industries = () => {
   let [over, setOver] = React.useState(false);
   
   return (
     <div className="endlos-container">
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Industries</p>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Industries</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="d-flex align-items-center justify-content-center pt-5 ">
         <p className="container industries-text-justify lead text-dark text-secondary ">
