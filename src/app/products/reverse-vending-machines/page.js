@@ -22,17 +22,17 @@ const page = () => {
               <div className="col-sm-12">
                 <div className="container px-5 py-5 responsive-container">
                   <div></div>
-                  <div className="d-flex align-items-center gap-2">
-                    <p>
-                      <span>Home</span> <AiOutlineRight />
-                    </p>
-                    <p>
-                      <span>Products</span> <AiOutlineRight />
-                    </p>
-                    <p>
-                      <span>Reverse Vending Machines</span> <AiOutlineRight />
-                    </p>
+                  <div className="d-flex align-items-center gap-2 flex-wrap">
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Home</div> <div><AiOutlineRight /></div>
                   </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Products</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Reverse Vending Machines</div> <div><AiOutlineRight /></div>
+                  </div>
+                </div>
                   <div className="container py-2">
                     <p className="text-center fs-2 text-dark">Reverse Vending Machines</p>
                     <p className="px-4 fs-5">
