@@ -59,20 +59,6 @@ const page = () => {
   return (
     <>
       <div className="final-product-page-container">
-        {/* <div className="d-flex align-items-center gap-2 px-5 pt-5">
-          <p>
-            <span>Home</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>Products</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>Product Vending Machine</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>Mask Vending Machine</span> <AiOutlineRight />
-          </p>
-        </div> */}
          <div className="d-flex align-items-center gap-2 flex-wrap px-5 py-5">
                   <div className="d-flex justify-between align-items-center">
                     <div>Home</div> <div><AiOutlineRight /></div>

@@ -25,8 +25,8 @@ const Overview = ({EvenOddImagesData}) => {
           machines.
         </p>
       </div>
-      <div className="mx-5 my-5">
-        <div className="row mx-5">
+      <div className="px-5 my-5">
+        <div className="row ">
           <div className="col-xl-6">
             <div className="py-3 fw-bold d-flex align-items-center gap-2 lead">
               {" "}
