@@ -54,7 +54,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-002.jpg"
+                src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -71,7 +71,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-003.jpg"
+                 src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -88,7 +88,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-004.jpg"
+                 src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -105,7 +105,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-005.jpg"
+                 src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -122,7 +122,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-006.jpg"
+                 src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -139,7 +139,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-007.jpg"
+                  src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -156,7 +156,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-008.jpg"
+                  src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
@@ -173,7 +173,7 @@ const NewMultiSlider = () => {
           <div className="card">
             <div className="card-body">
               <img
-                src="https://cdn.magloft.com/github/swiper/images/page-009.jpg"
+                 src="/images/rvm pro RVM_prem_342x456_7.jpg"
                 className="img-fluid"
               />
             </div>
