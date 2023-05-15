@@ -53,22 +53,22 @@ const page = () => {
   return (
     <>
       <div className="final-product-page-container">
-        <div className="d-flex align-items-center gap-2 px-5 pt-5">
-          <p>
-            <span>Home</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>Products</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>Reverse Vending Machine</span> <AiOutlineRight />
-          </p>
-          <p>
-            <span>RVM ECO</span> <AiOutlineRight />
-          </p>
-        </div>
         <div className="row">
           <div className="col-lg-9 py-5">
+          <div className="d-flex align-items-center gap-2 flex-wrap px-5 py-5">
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Home</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Products</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Reverse Vending Machine</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>RVM ECO</div> <div><AiOutlineRight /></div>
+                  </div>
+                </div>
             <div className="position-relative">
               <img
                 src="/images/RVM_eco_1440x678_2.jpg"
