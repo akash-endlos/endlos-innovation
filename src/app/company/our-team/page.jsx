@@ -7,6 +7,7 @@ import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import OurTeam from "@/app/components/our-team-container/OurTeam";
 import { OurTeamMembers } from "@/app/all-content/our-team";
+import bg from '../../../../public/assets/1.jpg'
 
 const page = () => {
   let [over, setOver] = React.useState(false);
@@ -27,8 +28,14 @@ const page = () => {
   const cls = visible ? "visible-page" : "hidden-page";
   return (
     <>
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
+   <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Our Team</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="row">
         <div className="col-sm-10 offset-sm-1">

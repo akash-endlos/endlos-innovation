@@ -16,6 +16,12 @@
     font-size: 30px;
     transform: translate(-50%, -50%);
 }
+.bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
 @media only screen and (max-width: 500px) {
     .contact-img-text {
         position: absolute;

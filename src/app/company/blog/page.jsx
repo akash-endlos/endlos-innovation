@@ -4,7 +4,7 @@ import "./blog.css";
 import Image from "next/image";
 import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
-
+import bg from '../../../../public/assets/1.jpg'
 import ImageCardContainer from "../../components/page-components/image-card-container/ImageCardContainer";
 import { Divider } from "@mui/material";
 import { AboutImageCardContainer } from "@/app/all-content/about";
@@ -13,9 +13,14 @@ const page = () => {
   let [over, setOver] = React.useState(false);
   return (
     <>
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Blog</p>
+        <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Blog</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container px-5 py-4">
         <div className="d-flex align-items-center gap-2">
@@ -30,7 +35,7 @@ const page = () => {
           </p>
         </div>
         <div className="container py-2">
-          <p className="para-text">
+          <p className="lead">
             Endlos Innovation was established in 2018, specializing in an
             environmental services-based company with 50+ employees. We are a
             leading provider of innovative solutions such as Reverse Vending

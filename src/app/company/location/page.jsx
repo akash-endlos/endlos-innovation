@@ -4,7 +4,7 @@ import "./location.css";
 import Image from "next/image";
 import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
-
+import bg from '../../../../public/assets/1.jpg'
 import ImageCardContainer from "../../components/page-components/image-card-container/ImageCardContainer";
 import { Divider } from "@mui/material";
 import { AboutImageCardContainer } from "@/app/all-content/about";
@@ -15,9 +15,14 @@ const page = () => {
   let [over, setOver] = React.useState(false);
   return (
     <>
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Location</p>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Location</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container px-5 py-4">
         <div className="d-flex align-items-center gap-2">

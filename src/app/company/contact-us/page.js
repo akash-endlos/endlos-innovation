@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./contact-us.css";
 import Image from "next/image";
 import { AiOutlineRight } from "react-icons/ai";
+import bg from '../../../../public/assets/1.jpg'
 import {
   Box,
   Button,
@@ -49,9 +50,14 @@ const page = () => {
   };
   return (
     <>
-      <div className="contact-image-section">
-        <Image src="/assets/contact-us.jpg" fill />
-        <p className="contact-img-text">About endlos</p>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Contact Us</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container px-5 py-4">
         <div className="d-flex align-items-center gap-2">

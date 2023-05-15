@@ -12,7 +12,12 @@
     width: 500px;
     height: 220px;
 }
-
+.bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
 .img-text {
     position: absolute;
     bottom: 10px;

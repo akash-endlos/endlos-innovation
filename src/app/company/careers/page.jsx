@@ -7,14 +7,20 @@ import { ImMail4 } from "react-icons/im";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Divider } from "@mui/material";
 import Link from "next/link";
+import bg from '../../../../public/assets/1.jpg'
 
 const page = () => {
   let [over, setOver] = React.useState(false);
   return (
     <>
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Career at endlos</p>
+    <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Careers</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container px-5 py-4">
         <div className="d-flex align-items-center gap-2">
@@ -29,14 +35,14 @@ const page = () => {
           </p>
         </div>
         <div className="container py-2">
-          <p className="top-para-text">
+          <p className="lead">
             Welcome to our orange world: endlos can offer you the best
             opportunities for development and long-term prospects. Enter the
             world of Industrie 4.0 and join us in shaping the automation of
             tomorrow: become a endlos colleague.
           </p>
-          <p className="head-text">Your career in Industrie 4.0</p>
-          <div className="para-text-careers">
+          <p className="fs-2">Your career in Industrie 4.0</p>
+          <div className="lead">
             Whether you are a school or university student, graduate or
             professionally experienced: implementing intelligent automation
             solutions calls on teamwork ability, passion, expertise and
