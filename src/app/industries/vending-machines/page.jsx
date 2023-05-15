@@ -6,6 +6,7 @@ import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import NewMultiSlider from "@/app/components/multi-slider-images/NewMultiSlider";
+import bg from '../../../../public/assets/1.jpg'
 
 const page = () => {
   let [over, setOver] = React.useState(false);
@@ -26,32 +27,36 @@ const page = () => {
   const cls = visible ? "visible-page" : "hidden-page";
   return (
     <>
-      <div className="image-section">
-        <Image src="/assets/1.jpg" fill />
-        <p className="img-text">Case Studies</p>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 className="text-white font-weight-bold fs-1">Recycling Machines</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="row">
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-12">
               <div className="container px-5 py-5 responsive-container">
-                <div></div>
-                <div className="d-flex align-items-center gap-2">
-                  <p>
-                    <span>Home</span> <AiOutlineRight />
-                  </p>
-                  <p>
-                    <span>Industries</span> <AiOutlineRight />
-                  </p>
-                  <p>
-                    <span>Vending Machines</span> <AiOutlineRight />
-                  </p>
+                <div className="d-flex align-items-center gap-2 flex-wrap">
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Home</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Industries</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Vending Machines</div> <div><AiOutlineRight /></div>
+                  </div>
                 </div>
                 <div className="container py-2">
-                  <p className="head-text text-secondary">
+                  <h1 className="text-secondary text-center font-weight-bold py-5">
                     Automation in the Recycling Industry
-                  </p>
-                  <p className="para-text">
+                  </h1>
+                  <p className="lead justify">
                     Most recycled plastics originate from industrial waste,
                     i.e., they are manufactured directly during the product's
                     manufacturing process. Therefore, they have the benefit that
@@ -74,10 +79,10 @@ const page = () => {
                   <hr style={{ width: "700px" }} />
                 </div>
                 <div className="px-5">
-                  <p className="fs-3 px-2 text-secondary">
+                  <h4 className="py-2 px-2 text-secondary">
                     Challenges in the Recycling Industry
-                  </p>
-                  <p className="fs-4">
+                  </h4>
+                  <p className="lead justify">
                     Recycling is a crucial process that helps reduce waste,
                     conserve natural resources, and minimize the impact of human
                     activities on the environment. However, the recycling
@@ -87,7 +92,7 @@ const page = () => {
                     overcome them through cutting-edge technology and innovative
                     approaches.
                   </p>
-                  <p className="fs-4 ">
+                  <p className="lead justify">
                     One of the significant challenges facing the recycling
                     industry is contamination. Contamination occurs when
                     non-recyclable materials are mixed with recyclable
@@ -108,10 +113,10 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-5 py-1">
-                  <p className="fs-3 text-secondary">
+                  <h4 className="text-secondary">
                     Solutions for the Recycling Industry
-                  </p>
-                  <p className="fs-5">
+                  </h4>
+                  <p className="lead justify">
                     Endlos Innovation provides innovative solutions for the
                     recycling industry. Our state-of-the-art sorting technology
                     efficiently separates materials, minimizing contamination
@@ -125,10 +130,10 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-5 py-2">
-                  <p className="fs-3 text-secondary">
+                  <h4 className=" text-secondary">
                     Our services and expertises
-                  </p>
-                  <p className="fs-5">
+                  </h4>
+                  <p className="lead justify">
                     At Endlos Innovation, we provide services and expertise to
                     help businesses and industries become more sustainable in
                     the recycling industry. Our state-of-the-art sorting
@@ -138,7 +143,7 @@ const page = () => {
                     materials, creating a circular economy that reduces waste
                     and conserves natural resources.
                   </p>
-                  <p className="pt-4 fs-5">
+                  <p className="pt-4 lead">
                     Our logistics and infrastructure solutions ensure efficient
                     and cost-effective transportation and processing of recycled
                     materials. With our expertise and commitment to
@@ -148,8 +153,8 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-5 py-4">
-                  <p className="fs-2 text-secondary">Robots and software</p>
-                  <p className="fs-5">
+                  <h4 className=" text-secondary">Robots and software</h4>
+                  <p className="lead justify">
                     Endlos Innovation leverages cutting-edge robotics and
                     software solutions to streamline and optimize recycling. Our
                     robots are designed to perform tasks such as sorting,
@@ -166,10 +171,10 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-5 py-4">
-                  <p className="fs-2 text-secondary">
+                  <h4 className="text-secondary">
                     Our key to success: Assembly & Test
-                  </p>
-                  <p className="fs-5">
+                  </h4>
+                  <p className="lead justify">
                     Endlos Innovation's key to success in the recycling industry
                     lies in our superior assembly and testing capabilities. Our
                     experienced team is committed to ensuring that all of our
@@ -184,11 +189,11 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-3 py-2">
-                  <p className="fs-2 text-secondary">
+                  <h4 className=" text-secondary px-4">
                     Innovations and successes for the Recycling Industry
-                  </p>
+                  </h4>
                   <ul>
-                    <li>
+                    <li className="lead justify">
                       Endlos Innovation has a track record of innovation and
                       success in the recycling industry. Our cutting-edge
                       solutions have helped businesses and industries become
@@ -197,7 +202,7 @@ const page = () => {
                       leveraging robotics and software to streamline and
                       optimize recycling.
                     </li>
-                    <li>
+                    <li className="lead justify">
                       We have also created new products from recycled materials,
                       contributing to creating a circular economy that conserves
                       natural resources and reduces waste. Our logistics and
@@ -227,16 +232,14 @@ const page = () => {
                     for the automotive industry
                   </small>
                 </div>
-                <div className="px-5 py-4">
-                  <p className="fs-5 px-5">
-                    We are experts in the automotive sector and support you in
-                    the further development of your production and logistics
-                    processes with individual production and service concepts.
-                    Discover here a variety of successful endlos solutions in
-                    the automotive industry.
-                  </p>
-                </div>
-                <div className="px-5 py-4">
+                <p className="lead">
+                  We are experts in the automotive sector and support you in
+                  the further development of your production and logistics
+                  processes with individual production and service concepts.
+                  Discover here a variety of successful endlos solutions in
+                  the automotive industry.
+                </p>
+                <div className="py-4">
                   <p className="fs-2 text-secondary">
                     You might also be interested in
                   </p>
@@ -259,9 +262,8 @@ const page = () => {
           <div
             onMouseOver={() => setOver(true)}
             onMouseOut={() => setOver(false)}
-            className={`${
-              !over ? "text-secondary" : "contact-us-border"
-            } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
+            className={`${!over ? "text-secondary" : "contact-us-border"
+              } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
           >
             <div className=" d-flex align-items-center flex-column gap-2">
               <div className={` p-3 justify-content-center`}>
