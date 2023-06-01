@@ -7,7 +7,7 @@ import Link from "next/link";
 const ImageCardContainer = ({ data }) => {
   return (
     <>
-      <div class="container">
+      <div class="container pt-5">
         <div class="row">
           {data?.length > 0 &&
             data?.map((item) => (
