@@ -1,20 +1,19 @@
 
-.inner {
+.blog-inner {
     overflow: hidden;
 }
 
-.inner img {
+.blog-inner img {
     transition: all 1.5s ease;
 }
 
-.inner:hover img {
+.blog-inner:hover img {
     transform: scale(1.2);
 }
 
 .blog-arrow-on-image {
     position: absolute;
-    vertical-align: middle;
-    left: 45%;
+    left: 35%;
    bottom:-12%;
 }
 .image-container{

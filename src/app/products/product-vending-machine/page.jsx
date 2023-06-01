@@ -37,12 +37,12 @@ const page = () => {
                   <div className="container py-2">
                     {/* <p className="text-center fs-2 text-dark">Fiber laser</p> */}
                     <p className="px-4 fs-5">
-                    Our product vending machines provide convenient and efficient solutions for a variety of vending needs. With advanced features and a user-friendly interface, our vending machines are designed to offer a seamless and enjoyable experience for both customers and businesses. 
+                      Our product vending machines provide convenient and efficient solutions for a variety of vending needs. With advanced features and a user-friendly interface, our vending machines are designed to offer a seamless and enjoyable experience for both customers and businesses.
                     </p>
                   </div>
-                  <ProductsContainer products={productVendingMachine}/>
+                  <ProductsContainer products={productVendingMachine} />
                   <p className="lead justify text-secondary">Contact us today to discuss your mask vending needs and explore how our machines can promote safety and contribute to a healthier environment.
-        </p>
+                  </p>
                   {/* <div className="container my-5">
                     <div className="row gap-md-2 gap-xl-0">
                       <div className="col-xl-6 col-lg-12">
@@ -298,9 +298,8 @@ const page = () => {
           <div
             onMouseOver={() => setOver(true)}
             onMouseOut={() => setOver(false)}
-            className={`${
-              !over ? "text-secondary" : "contact-us-border"
-            } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
+            className={`${!over ? "text-secondary" : "contact-us-border"
+              } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
           >
             <div className=" d-flex align-items-center flex-column gap-2">
               <div className={` p-3 justify-content-center`}>
