@@ -65,7 +65,7 @@ const page = () => {
                   <hr style={{ width: "700px" }} />
                 </div> */}
                 <div className="px-5">
-                  <h4 className="py-2 px-2 text-secondary">
+                  <h4 className="py-2 text-secondary">
                     History:
 
                   </h4>
