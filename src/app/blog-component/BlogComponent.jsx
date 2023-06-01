@@ -13,7 +13,7 @@ const BlogComponent = () => {
                     <div className="d-flex justify-content-center">
                         <div className="row">
                             {blogContent.map((item, index) => (
-                                <div className='col-xl-4 py-5'>
+                                <div key={index} className='col-xl-4 py-5'>
                                     <div className="blog-item">
                                         <div style={{ height: "350px" }}>
                                             <h4>{item.title}</h4>
