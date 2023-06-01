@@ -7,6 +7,9 @@ import { Divider } from "@mui/material";
 import { BsArrowRight } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import ImageCardContainer from "@/app/components/page-components/image-card-container/ImageCardContainer";
+import { owcProducts } from "@/app/all-content/owcProducts";
+import ProductsContainer from "@/app/components/products-container/ProductsContainer";
+import { productVendingMachine } from "@/app/all-content/productVendingMachine";
 
 const page = () => {
   let [over, setOver] = React.useState(false);
@@ -32,20 +35,15 @@ const page = () => {
                     </p>
                   </div>
                   <div className="container py-2">
-                    <p className="text-center fs-2 text-dark">Fiber laser</p>
+                    {/* <p className="text-center fs-2 text-dark">Fiber laser</p> */}
                     <p className="px-4 fs-5">
-                      A compact footprint, long service life, excellent single
-                      mode (SM) beam quality up to 2 kW or multiple mode (MM) up
-                      to 6 kW as a robust "all-in-fiber" resonator concept – all
-                      these features make TRUMPF fiber lasers first choice for a
-                      wide range of applications. The 10 m SM or up to 20 m MM
-                      transport fiber and flexible laser communication and
-                      control options also allow our fiber lasers to be easily
-                      integrated into larger systems.
+                    Our product vending machines provide convenient and efficient solutions for a variety of vending needs. With advanced features and a user-friendly interface, our vending machines are designed to offer a seamless and enjoyable experience for both customers and businesses. 
                     </p>
                   </div>
-
-                  <div className="container my-5">
+                  <ProductsContainer products={productVendingMachine}/>
+                  <p className="lead justify text-secondary">Contact us today to discuss your mask vending needs and explore how our machines can promote safety and contribute to a healthier environment.
+        </p>
+                  {/* <div className="container my-5">
                     <div className="row gap-md-2 gap-xl-0">
                       <div className="col-xl-6 col-lg-12">
                         <img
@@ -201,7 +199,7 @@ const page = () => {
                         <div className="btn btn-dark">To The Product</div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <div className="px-5 pt-4">
                     <p className="fs-2 text-center text-secondary">
                       You might also be interested in

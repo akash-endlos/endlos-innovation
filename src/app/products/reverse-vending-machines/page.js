@@ -36,17 +36,14 @@ const page = () => {
                   <div className="container py-2">
                     <p className="text-center fs-2 text-dark">Reverse Vending Machines</p>
                     <p className="px-4 fs-5">
-                      A compact footprint, long service life, excellent single
-                      mode (SM) beam quality up to 2 kW or multiple mode (MM) up
-                      to 6 kW as a robust "all-in-fiber" resonator concept – all
-                      these features make TRUMPF fiber lasers first choice for a
-                      wide range of applications. The 10 m SM or up to 20 m MM
-                      transport fiber and flexible laser communication and
-                      control options also allow our fiber lasers to be easily
-                      integrated into larger systems.
+                    Introducing our range of Reverse Vending Machines (RVMs) designed to revolutionize recycling and waste management. Explore our diverse lineup, including the RVM Eco, RVM Pro, RVM Premium, RVM DRS 11, RVM DRS 22, and RVM DRS 35, each offering unique features to meet specific needs.
                     </p>
                   </div>
                    <ProductsContainer products={rvmProducts}/>
+                   <p className="text-secondary lead justify">
+                   Contact us today to discuss your specific recycling needs and find the perfect Reverse Vending Machine from our range of options, including the RVM Eco, RVM Pro, RVM Premium, RVM DRS 11, RVM DRS 22, and RVM DRS 35. Together, let's make recycling a rewarding experience and drive positive change in waste management.
+
+                   </p>
                 </div>
               </div>
             </div>

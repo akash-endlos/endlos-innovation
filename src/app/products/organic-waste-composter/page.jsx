@@ -35,17 +35,12 @@ const page = () => {
                   <div className="container py-2">
                     <p className="text-center fs-2 text-dark">Organic Waste Composter</p>
                     <p className="px-4 fs-5">
-                      A compact footprint, long service life, excellent single
-                      mode (SM) beam quality up to 2 kW or multiple mode (MM) up
-                      to 6 kW as a robust "all-in-fiber" resonator concept – all
-                      these features make TRUMPF fiber lasers first choice for a
-                      wide range of applications. The 10 m SM or up to 20 m MM
-                      transport fiber and flexible laser communication and
-                      control options also allow our fiber lasers to be easily
-                      integrated into larger systems.
+                    Introducing our range of Organic Waste Composters (OWCs), designed to efficiently manage and convert organic waste into nutrient-rich compost. Choose from our selection, including the END OWC 50, END OWC 100, END OWC 300, END OWC 500, and END OWC 1000, to find the perfect composting solution for your needs.
                     </p>
                   </div>
                   <ProductsContainer products={owcProducts}/>
+                  <p className="lead justify text-secondary">Contact us today to discuss your organic waste management needs and explore the options available, including the END OWC 50, END OWC 100, END OWC 300, END OWC 500, and END OWC 1000. Together, let's embrace responsible waste management and harness the power of composting.
+</p>
                 </div>
               </div>
             </div>
