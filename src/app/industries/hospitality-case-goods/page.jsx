@@ -53,95 +53,44 @@ const page = () => {
                   </div>
                 </div>
                 <div className="container py-2">
-                  <h1 className="text-secondary text-center font-weight-bold py-5">
+                  {/* <h1 className="text-secondary text-center font-weight-bold py-5">
                     Automation in the Recycling Industry
-                  </h1>
-                  <p className="lead justify">
-                    Most recycled plastics originate from industrial waste,
-                    i.e., they are manufactured directly during the product's
-                    manufacturing process. Therefore, they have the benefit that
-                    they can be separated according to type. In Endlos
-                    Innovation, recycling systems allow material reuse to make
-                    more products, significantly contributing to our
-                    environment. The residual products left over from the
-                    manufacturing process for plastics are of high-quality and
-                    precious raw materials. To ensure they can be used again in
-                    production by recycling, we design and build highly
-                    technologically advanced machines capable of completing this
-                    task. When we build these machines, we primarily focus on
-                    sustainable economics and the environment. Endlos Innovation
-                    solutions preserve the total value of materials between the
-                    input and production (zero-waste production), reducing
-                    energy and labor costs. The benefits speak for themselves
+                  </h1> */}
+                  <p className="lead justify py-4">
+                    Welcome to Endlos Innovation's Hospitality Case Goods page. Here, we provide you with high-quality case goods solutions designed specifically for the hospitality industry. Discover our history and learn how our innovative solutions can enhance your hospitality spaces.
+
                   </p>
                 </div>
-                <div className="d-flex justify-content-center align-items-center">
+                {/* <div className="d-flex justify-content-center align-items-center">
                   <hr style={{ width: "700px" }} />
-                </div>
+                </div> */}
                 <div className="px-5">
                   <h4 className="py-2 px-2 text-secondary">
-                    Challenges in the Recycling Industry
+                    History:
+
                   </h4>
                   <p className="lead justify">
-                    Recycling is a crucial process that helps reduce waste,
-                    conserve natural resources, and minimize the impact of human
-                    activities on the environment. However, the recycling
-                    industry faces several challenges hindering its growth and
-                    sustainability. As an innovative solution provider, Endlos
-                    Innovation understands these challenges and strives to
-                    overcome them through cutting-edge technology and innovative
-                    approaches.
-                  </p>
-                  <p className="lead justify">
-                    One of the significant challenges facing the recycling
-                    industry is contamination. Contamination occurs when
-                    non-recyclable materials are mixed with recyclable
-                    materials, reducing the quality and value of the recycled
-                    materials. Endlos Innovation addresses this challenge
-                    through state-of-the-art technology that can separate
-                    different types of materials efficiently, minimizing
-                    contamination and maximizing the value of recycled
-                    materials. Another challenge facing the recycling industry
-                    is low market demand. Recycling materials can be more
-                    expensive than producing new materials, and there may not
-                    always be a market for recycled materials. Endlos Innovation
-                    is addressing this challenge by developing innovative
-                    recycling solutions that reduce costs and create new
-                    products from recycled materials. By finding new markets for
-                    recycled materials, Endlos Innovation is helping to create a
-                    more sustainable and circular economy.
+
+                    Endlos Innovation has been a leading provider of hospitality case goods for over two decades. With a passion for design, functionality, and durability, we have consistently delivered exceptional products to hotels, resorts, restaurants, and other hospitality establishments worldwide. Our extensive experience and commitment to customer satisfaction have earned us a strong reputation in the industry.
+
                   </p>
                 </div>
                 <div className="px-5 py-1">
                   <h4 className="text-secondary">
-                    Solutions for the Recycling Industry
+                    Solutions:
                   </h4>
                   <p className="lead justify">
-                    Endlos Innovation provides innovative solutions for the
-                    recycling industry. Our state-of-the-art sorting technology
-                    efficiently separates materials, minimizing contamination
-                    and maximizing the value of recycled materials. We also
-                    develop new products from recycled materials, creating a
-                    circular economy that reduces waste and conserves natural
-                    resources. Our logistics and infrastructure solutions ensure
-                    efficient and cost-effective transportation and processing
-                    of recycled materials—partner with Endlos Innovation for a
-                    sustainable future.
+                    Our range of hospitality case goods is designed to meet the unique needs of the industry, combining style, functionality, and durability. Whether you're looking for furniture for guest rooms, lobbies, restaurants, or conference rooms, we have the perfect solution for you.
+
                   </p>
                 </div>
                 <div className="px-5 py-2">
                   <h4 className=" text-secondary">
-                    Our services and expertises
+                    Guest Room Case Goods:
                   </h4>
                   <p className="lead justify">
-                    At Endlos Innovation, we provide services and expertise to
-                    help businesses and industries become more sustainable in
-                    the recycling industry. Our state-of-the-art sorting
-                    technology efficiently separates materials, minimizing
-                    contamination and maximizing the value of recycled
-                    materials. We also develop new products from recycled
-                    materials, creating a circular economy that reduces waste
-                    and conserves natural resources.
+                    Create a welcoming and comfortable atmosphere for your guests with our thoughtfully designed guest room case goods. From elegant beds and nightstands to functional desks and wardrobes, our furniture enhances both the aesthetics and functionality of any guest room.
+
                   </p>
                   <p className="pt-4 lead">
                     Our logistics and infrastructure solutions ensure efficient
@@ -153,69 +102,51 @@ const page = () => {
                   </p>
                 </div>
                 <div className="px-5 py-4">
-                  <h4 className=" text-secondary">Robots and software</h4>
+                  <h4 className=" text-secondary">Lobby And Common Area  Furniture</h4>
                   <p className="lead justify">
-                    Endlos Innovation leverages cutting-edge robotics and
-                    software solutions to streamline and optimize recycling. Our
-                    robots are designed to perform tasks such as sorting,
-                    separating, and processing materials with precision and
-                    efficiency, reducing the cost and time required for manual
-                    labor. We also develop software solutions that enable
-                    real-time monitoring, analysis, and optimization of the
-                    recycling process, ensuring that businesses and industries
-                    can make data-driven decisions and achieve their
-                    sustainability goals. With our expertise in robotics and
-                    software, we are driving innovation and efficiency in the
-                    recycling industry, creating a more sustainable and circular
-                    economy.
+                    Make a lasting impression on your guests with our stylish lobby and common area furniture. Our collection includes chic seating options, elegant tables, and storage solutions that elevate the overall ambience of your hospitality space.
                   </p>
                 </div>
                 <div className="px-5 py-4">
                   <h4 className="text-secondary">
-                    Our key to success: Assembly & Test
+                    Restaurant and Bar Furnishings:
+
                   </h4>
                   <p className="lead justify">
-                    Endlos Innovation's key to success in the recycling industry
-                    lies in our superior assembly and testing capabilities. Our
-                    experienced team is committed to ensuring that all of our
-                    solutions are built to the highest standards of quality and
-                    reliability. We use state-of-the-art assembly and testing
-                    processes to ensure that our solutions are fully functional
-                    and meet our client's needs and requirements. By delivering
-                    superior assembly and testing services, we can provide our
-                    clients with efficient, cost-effective, and environmentally
-                    friendly solutions, driving innovation and sustainability in
-                    the recycling industry.
+                    Enhance your dining experience with our restaurant and bar furnishings. We offer a wide range of dining tables, chairs, bar stools, and storage units that combine aesthetics and functionality, ensuring a pleasant and memorable experience for your guests.
+
                   </p>
                 </div>
-                <div className="px-3 py-2">
+                <div className="px-4 py-2">
                   <h4 className=" text-secondary px-4">
-                    Innovations and successes for the Recycling Industry
+                    Conference and Meeting Room Furniture:
                   </h4>
                   <ul>
                     <li className="lead justify">
-                      Endlos Innovation has a track record of innovation and
-                      success in the recycling industry. Our cutting-edge
-                      solutions have helped businesses and industries become
-                      more sustainable and reduce their carbon footprint. We
-                      have developed state-of-the-art sorting technology,
-                      leveraging robotics and software to streamline and
-                      optimize recycling.
+                      Create a professional and inspiring environment for your conferences and meetings with our conference and meeting room furniture. Our collection includes conference tables, chairs, credenzas, and presentation boards that promote productivity and collaboration.
+
                     </li>
+                  </ul>
+                  <h4 className=" text-secondary px-4">
+                  Quality and Craftsmanship:
+                  </h4>
+                  <ul>
                     <li className="lead justify">
-                      We have also created new products from recycled materials,
-                      contributing to creating a circular economy that conserves
-                      natural resources and reduces waste. Our logistics and
-                      infrastructure solutions ensure efficient and
-                      cost-effective transportation and processing of recycled
-                      materials. With our expertise and commitment to
-                      sustainability, we continue to drive innovation and
-                      success in the recycling industry, creating a better
-                      future for all.
+                    We understand that each hospitality establishment has unique requirements and design preferences. That's why we offer customization options, allowing you to tailor our case goods to your specific needs. From finishes and fabrics to dimensions and hardware, we work closely with you to create furniture that aligns perfectly with your vision.
+
+                    </li>
+                  </ul>
+                  <h4 className=" text-secondary px-4">
+                  Customization:
+                  </h4>
+                  <ul>
+                    <li className="lead justify">
+                    Partner with Endlos Innovation for all your hospitality case goods needs and transform your spaces into inviting, functional, and aesthetically pleasing environments. Contact us today to discuss your project requirements and explore our comprehensive range of solutions.
+
                     </li>
                   </ul>
                 </div>
-                <div className="py-4">
+                {/* <div className="py-4">
                   <p className="fs-3 text-secondary mb-5">
                     Smart Production for an advanced Recycling industry
                   </p>
@@ -231,8 +162,8 @@ const page = () => {
                     Automated ladder frame production: another endlos innovation
                     for the automotive industry
                   </small>
-                </div>
-                <p className="lead">
+                </div> */}
+                {/* <p className="lead">
                   We are experts in the automotive sector and support you in
                   the further development of your production and logistics
                   processes with individual production and service concepts.
@@ -244,7 +175,7 @@ const page = () => {
                     You might also be interested in
                   </p>
                   <NewMultiSlider />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
