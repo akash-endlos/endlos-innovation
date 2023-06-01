@@ -8,6 +8,7 @@ import { ImMail4 } from "react-icons/im";
 import Link from "next/link";
 import { ProductsImageCardContainer } from "../all-content/products";
 import bg from '../../../public/assets/1.jpg'
+import ContactForm from "../components/contact-us-form/ContactForm";
 
 const Industries = () => {
   let [over, setOver] = React.useState(false);
@@ -24,16 +25,18 @@ const Industries = () => {
         </div>
       </div>
       <div className="d-flex align-items-center justify-content-center pt-5 pb-4">
-        <p className="w-50 text-justify fs-5 text-secondary">
-        Welcome to Endlos Innovation, where we present our cutting-edge solutions for waste management and recycling. Explore our range of Reverse Vending Machines, Organic Waste Composters, and Waste Compactors to revolutionize your waste management practices.
+        <p className="container text-justify fs-5 text-secondary">
+          Welcome to Endlos Innovation, where we present our cutting-edge solutions for waste management and recycling. Explore our range of Reverse Vending Machines, Organic Waste Composters, and Waste Compactors to revolutionize your waste management practices.
         </p>
       </div>
-      <div className="d-flex align-items-center justify-content-center pt-2 pb-5">
-        <hr className="w-25" />
-        <div></div>
-      </div>
+
       <ImageCardContainer data={ProductsImageCardContainer} />
-      <div className="contact-us-section">
+      <div className="container py-5">
+        <p className="lead justify text-secondary">Contact us today to discuss your waste management requirements and explore how our Reverse Vending Machines, Organic Waste Composters, and Waste Compactors can transform your waste management practices.
+        </p>
+      </div>
+      <ContactForm/>
+      {/* <div className="contact-us-section">
         <img src="/assets/mail.svg" className="mail-middle" />
         <div className="d-flex flex-column align-items-center justify-content-center pb-4">
           <div className="text-center">
@@ -59,7 +62,7 @@ const Industries = () => {
           </Link>
         </div>
         <Divider sx={{ bgcolor: "#FFFFFF", height: "3px" }} />
-      </div>
+      </div> */}
     </div>
   );
 };
