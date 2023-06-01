@@ -25,12 +25,7 @@ const Industries = () => {
       </div>
       <div className="d-flex align-items-center justify-content-center pt-5 pb-4">
         <p className="w-50 text-justify fs-5 text-secondary">
-          Get an overview of all{" "}
-          <span className="fs-5 text-dark">industries</span> that benefit from
-          our comprehensive product range and system partnerships. You will also
-          find a variety of case studies about customer cooperations and
-          projects that have been successfully implemented using endlos
-          products.
+        Welcome to Endlos Innovation, where we present our cutting-edge solutions for waste management and recycling. Explore our range of Reverse Vending Machines, Organic Waste Composters, and Waste Compactors to revolutionize your waste management practices.
         </p>
       </div>
       <div className="d-flex align-items-center justify-content-center pt-2 pb-5">

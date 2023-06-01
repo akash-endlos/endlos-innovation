@@ -13,8 +13,8 @@ const ImageCardContainer = ({ data }) => {
             data?.map((item) => (
               <div className="col-lg-12 col-xl-6">
                 <h4>{item.title}</h4>
-                <p className="w-75 text-height">{item.subtitle}</p>
-                <div className="position-relative pb-5 mb-5">
+               
+                <div className="position-relative pt-5 mb-5">
                   <div className="inner">
                     <img
                       src={item.img_src}
@@ -29,6 +29,7 @@ const ImageCardContainer = ({ data }) => {
                     </Link>
                   </div>
                 </div>
+                <p className="w-75 text-height">{item.subtitle}</p>
               </div>
             ))}
         </div>
