@@ -17,7 +17,7 @@ const BlogComponent = () => {
                                     <div className="blog-item">
                                         <div style={{ height: "350px" }}>
                                             <h4>{item.title}</h4>
-                                            <p>{item.content}</p>
+                                            <p className='justify'>{item.content}</p>
                                         </div>
                                         <div className='position-relative'>
                                             <div className="inner">

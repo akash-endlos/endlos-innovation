@@ -13,13 +13,13 @@ const ImageCardContainer = ({ data }) => {
             data?.map((item) => (
               <div className="col-lg-12 col-xl-6">
                 <h4>{item.title}</h4>
-                <p className="w-full text-height">{item.subtitle}</p>
+                <p className="w-75 text-height">{item.subtitle}</p>
                 <div className="position-relative pb-5 mb-5">
                   <div className="inner">
                     <img
                       src={item.img_src}
                       alt="img1"
-                      className="image-container"
+                      className="image-container w-75"
                     />
                   </div>
                   <div className="arrow-on-image pointer">
