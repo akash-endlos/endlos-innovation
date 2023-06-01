@@ -53,32 +53,64 @@ const page = () => {
                   </div>
                 </div>
                 <div className="container py-2">
-                  <h1 className="text-secondary text-center font-weight-bold py-5">
+                  {/* <h1 className="text-secondary text-center font-weight-bold py-5">
                     Automation in the Recycling Industry
-                  </h1>
-                  <p className="lead justify">
-                    Most recycled plastics originate from industrial waste,
-                    i.e., they are manufactured directly during the product's
-                    manufacturing process. Therefore, they have the benefit that
-                    they can be separated according to type. In Endlos
-                    Innovation, recycling systems allow material reuse to make
-                    more products, significantly contributing to our
-                    environment. The residual products left over from the
-                    manufacturing process for plastics are of high-quality and
-                    precious raw materials. To ensure they can be used again in
-                    production by recycling, we design and build highly
-                    technologically advanced machines capable of completing this
-                    task. When we build these machines, we primarily focus on
-                    sustainable economics and the environment. Endlos Innovation
-                    solutions preserve the total value of materials between the
-                    input and production (zero-waste production), reducing
-                    energy and labor costs. The benefits speak for themselves
+                  </h1> */}
+                  <p className="lead justify py-4">
+                    At Endlos Innovation! We are passionate about revolutionizing the vending machine industry. Here's some information about vending machines, their history, and our innovative solutions.
                   </p>
                 </div>
-                <div className="d-flex justify-content-center align-items-center">
-                  <hr style={{ width: "700px" }} />
+                <div >
+                  <h4 className="py-2 text-secondary">
+                    History of Vending Machines
+                  </h4>
+                  <p className="lead justify">
+                    At Endlos Innovation, we are at the forefront of transforming the vending machine industry. Our innovative solutions aim to enhance user experience, increase efficiency, and offer greater convenience. Here are some of our key offerings:
+
+                  </p>
                 </div>
-                <div className="px-5">
+                <h4 className="py-2 text-secondary">
+                  Innovative Solutions by Endlos Innovation
+
+                </h4>
+                <div className="px-4">
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5">Smart Vending Machines : </span>  Our vending machines have cutting-edge technology like IoT connectivity and advanced sensors. This enables real-time inventory tracking, remote management, and data analytics, ensuring optimal performance and minimizing downtime.
+
+
+
+                  </p>
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5">Cashless Payment Systems : </span>   We have integrated secure and convenient cashless payment options into our vending machines. Users can now pay using various methods, including credit cards, mobile wallets, and contactless payments, making transactions faster and more seamless.
+
+                  </p>
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5">Interactive Touchscreen Displays : </span> Our vending machines feature interactive touchscreen displays, providing a user-friendly interface for browsing and selecting products. This engaging experience improves customer satisfaction and encourages impulse purchases.
+
+
+
+                  </p>
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5">Product Diversification : </span>  Endlos Innovation offers vending machines tailored to specific product categories, such as snacks, beverages, and health foods. We work closely with our clients to customize product offerings based on consumer preferences and market trends.
+
+
+                  </p>
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5">Sustainability Initiatives : </span> We are committed to promoting eco-friendly practices. Our vending machines are designed to be energy-efficient, utilizing LED lighting and low-power modes. We also encourage using recyclable materials and collaborating with suppliers prioritising sustainable sourcing.
+                  </p>
+                  <p className="lead justify">
+                    <span className="fw-bold text-secondary fs-5"> Real-Time Data Analytics : </span> Leveraging the power of data, our vending machines provide real-time insights into consumer behavior, inventory management, and sales trends. This valuable information helps businesses make informed decisions and optimize their vending operations.
+
+                  </p>
+                </div>
+                <h4 className="py-2 text-secondary">
+                  Partner with Endlos Innovation
+                </h4>
+                <p className="lead justify text-secondary">By partnering with Endlos Innovation, you can use our expertise and cutting-edge solutions to revolutionize your vending machine business. We are dedicated to providing high-quality products, exceptional customer service, and continuous innovation.
+                </p>
+                <p className="lead justify text-secondary">Discover the endless possibilities with Endlos Innovation. Contact us today to explore how our vending machine solutions can elevate your business.
+                </p>
+                {/* <div className="px-5">
                   <h4 className="py-2 px-2 text-secondary">
                     Challenges in the Recycling Industry
                   </h4>
@@ -244,7 +276,7 @@ const page = () => {
                     You might also be interested in
                   </p>
                   <NewMultiSlider />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

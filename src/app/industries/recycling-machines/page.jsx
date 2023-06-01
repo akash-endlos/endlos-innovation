@@ -57,161 +57,95 @@ const page = () => {
                     Automation in the Recycling Industry
                   </h1>
                   <p className="lead justify">
-                    Most recycled plastics originate from industrial waste,
-                    i.e., they are manufactured directly during the product's
-                    manufacturing process. Therefore, they have the benefit that
-                    they can be separated according to type. In Endlos
-                    Innovation, recycling systems allow material reuse to make
-                    more products, significantly contributing to our
-                    environment. The residual products left over from the
-                    manufacturing process for plastics are of high-quality and
-                    precious raw materials. To ensure they can be used again in
-                    production by recycling, we design and build highly
-                    technologically advanced machines capable of completing this
-                    task. When we build these machines, we primarily focus on
-                    sustainable economics and the environment. Endlos Innovation
-                    solutions preserve the total value of materials between the
-                    input and production (zero-waste production), reducing
-                    energy and labor costs. The benefits speak for themselves
+                    Automation has been transforming various industries, and the recycling industry is no exception. Recycling machines are equipped with advanced technologies such as sensors, artificial intelligence, and machine learning algorithms to automate various tasks and improve the efficiency of the recycling process.
+                  </p>
+                  <p className="lead justify">
+                    One example of automation in the recycling industry is using sensors in recycling machines to sort and separate different types of materials. These sensors can detect different colors, shapes, and sizes of materials and then sort them into different categories, making recycling more efficient and accurate.
+                  </p>
+                  <p className="lead justify">
+                  Artificial intelligence and machine learning algorithms are also being used in recycling machines to improve the accuracy of sorting and reduce the chances of contamination. These algorithms can learn from the data collected by sensors and identify patterns in the material, making it easier to sort them accurately.
+
+                  </p>
+                  <p className="lead justify">
+                  Robotic arms are also being used in recycling machines to pick up and sort materials, reducing the need for human labor and improving the speed and accuracy of the recycling process.
+
+                  </p>
+                  <p className="text-black fw-bold fs-5 justify">
+                  “There's a current push to recycle - thanks to media coverage and increased public awareness worldwide. Recycling isn't a new concept. The concept of conservation of resources is a concept that has existed for ages and has had varying successes and also a rise in popularity through the decades.”
                   </p>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                  <hr style={{ width: "700px" }} />
+                <hr className="w-100" />
                 </div>
-                <div className="px-5">
-                  <h4 className="py-2 px-2 text-secondary">
-                    Challenges in the Recycling Industry
+                <div >
+                  <h4 className="py-2 text-secondary">
+                  The History of Recycling and How It Has Evolved
                   </h4>
                   <p className="lead justify">
-                    Recycling is a crucial process that helps reduce waste,
-                    conserve natural resources, and minimize the impact of human
-                    activities on the environment. However, the recycling
-                    industry faces several challenges hindering its growth and
-                    sustainability. As an innovative solution provider, Endlos
-                    Innovation understands these challenges and strives to
-                    overcome them through cutting-edge technology and innovative
-                    approaches.
-                  </p>
-                  <p className="lead justify">
-                    One of the significant challenges facing the recycling
-                    industry is contamination. Contamination occurs when
-                    non-recyclable materials are mixed with recyclable
-                    materials, reducing the quality and value of the recycled
-                    materials. Endlos Innovation addresses this challenge
-                    through state-of-the-art technology that can separate
-                    different types of materials efficiently, minimizing
-                    contamination and maximizing the value of recycled
-                    materials. Another challenge facing the recycling industry
-                    is low market demand. Recycling materials can be more
-                    expensive than producing new materials, and there may not
-                    always be a market for recycled materials. Endlos Innovation
-                    is addressing this challenge by developing innovative
-                    recycling solutions that reduce costs and create new
-                    products from recycled materials. By finding new markets for
-                    recycled materials, Endlos Innovation is helping to create a
-                    more sustainable and circular economy.
+                  Over the centuries, the reuse and use of natural and artificial resources have been crucial in the evolution and sustainability of civilizations throughout history, especially in times of extreme poverty. The primary objective of recycling is eliminating garbage by turning things that can't be utilized in their present state (broken or depleted.) into brand new materials by returning them to the substances they were constructed from.
                   </p>
                 </div>
-                <div className="px-5 py-1">
+                <div className="py-1">
                   <h4 className="text-secondary">
-                    Solutions for the Recycling Industry
+                  Recycling Throughout History
                   </h4>
                   <p className="lead justify">
-                    Endlos Innovation provides innovative solutions for the
-                    recycling industry. Our state-of-the-art sorting technology
-                    efficiently separates materials, minimizing contamination
-                    and maximizing the value of recycled materials. We also
-                    develop new products from recycled materials, creating a
-                    circular economy that reduces waste and conserves natural
-                    resources. Our logistics and infrastructure solutions ensure
-                    efficient and cost-effective transportation and processing
-                    of recycled materials—partner with Endlos Innovation for a
-                    sustainable future.
+                  By utilizing many processes and the most advanced techniques, today, people can get similar items from different made-from-source materials, but that wasn't always the case. For example, the absence of local resources, along with the inability to produce complicated items, like weapons made of metal, often led to civilizations smashing the destroyed ones in addition to other metal objects of all types, then using them again to create new weapons.
+
                   </p>
                 </div>
                 <div className="px-5 py-2">
                   <h4 className=" text-secondary">
-                    Our services and expertises
+                  Evolution Of Recycling
+
                   </h4>
                   <p className="lead justify">
-                    At Endlos Innovation, we provide services and expertise to
-                    help businesses and industries become more sustainable in
-                    the recycling industry. Our state-of-the-art sorting
-                    technology efficiently separates materials, minimizing
-                    contamination and maximizing the value of recycled
-                    materials. We also develop new products from recycled
-                    materials, creating a circular economy that reduces waste
-                    and conserves natural resources.
-                  </p>
-                  <p className="pt-4 lead">
-                    Our logistics and infrastructure solutions ensure efficient
-                    and cost-effective transportation and processing of recycled
-                    materials. With our expertise and commitment to
-                    sustainability, we help businesses and industries achieve
-                    their sustainability goals and create a better future for
-                    all.
+                  In the Mediterranean region, glass has been broken, becoming new objects. In early Rome, bronze coins were used to make their appearance into jewelry. Ceramic was subjected to a recycling process. Scrapping metal and textile recycling was common throughout the Middle Ages.
+
                   </p>
                 </div>
                 <div className="px-5 py-4">
-                  <h4 className=" text-secondary">Robots and software</h4>
+                  <h4 className=" text-secondary">The 20th Century</h4>
                   <p className="lead justify">
-                    Endlos Innovation leverages cutting-edge robotics and
-                    software solutions to streamline and optimize recycling. Our
-                    robots are designed to perform tasks such as sorting,
-                    separating, and processing materials with precision and
-                    efficiency, reducing the cost and time required for manual
-                    labor. We also develop software solutions that enable
-                    real-time monitoring, analysis, and optimization of the
-                    recycling process, ensuring that businesses and industries
-                    can make data-driven decisions and achieve their
-                    sustainability goals. With our expertise in robotics and
-                    software, we are driving innovation and efficiency in the
-                    recycling industry, creating a more sustainable and circular
-                    economy.
+                  The early 20th century was defined by the rapid growth of industrialization, and the recycling process was considered to be off the process of making materials. When war broke out and the Second World War began, the necessity of cautious use of resources was evident. As a result, recycling products became available. Wartime brought about a general shortage of products for everyday use, along with food restrictions. This also led to numerous campaigns urging the reuse and recycling of all suitable items. Following the World War, some countries maintained this trend, while others (mainly Western ones) became more environmentally conscious. Particularly in these countries, a growing interest in recycling and environmental concerns developed in the 1960s. 
+                  </p>
+                  <p className="lead justify">
+                  In the 1960s, the hippie generation took an active part in the struggle to rebel against consumerism and the power of big corporations on markets and resources. In 1986, a law was passed through Europe as a formal proposal to safeguard the natural environment. Then, EU directives related to avoiding excessive packaging and reducing waste came into the market a couple of years later.
+
                   </p>
                 </div>
-                <div className="px-5 py-4">
+                <div className="py-4">
                   <h4 className="text-secondary">
-                    Our key to success: Assembly & Test
+                  Present Day
                   </h4>
                   <p className="lead justify">
-                    Endlos Innovation's key to success in the recycling industry
-                    lies in our superior assembly and testing capabilities. Our
-                    experienced team is committed to ensuring that all of our
-                    solutions are built to the highest standards of quality and
-                    reliability. We use state-of-the-art assembly and testing
-                    processes to ensure that our solutions are fully functional
-                    and meet our client's needs and requirements. By delivering
-                    superior assembly and testing services, we can provide our
-                    clients with efficient, cost-effective, and environmentally
-                    friendly solutions, driving innovation and sustainability in
-                    the recycling industry.
+                  Recycling is standard throughout all industrialized countries, from private households to privately owned businesses. The focus is on metals, paper, glass, and plastic. It's widespread to recycle textiles and electronic items. Art and music festivals. Used to produce substantial quantities of trash. However, 'sit a race to be better than one another.
+
+                  </p>
+                  <p className="lead justify">
+                  Much attention is paid to recycling is getting more popular nowadays. The campaigns that promote recycling are backed by mass media across the board and reach a broad audience with higher success rates. Nowadays, it's not simply a trend but an entire industry and comes with many products to help it, like recycling bins, television shows and publications, stickers, posters, and many more.
+
                   </p>
                 </div>
                 <div className="px-3 py-2">
                   <h4 className=" text-secondary px-4">
-                    Innovations and successes for the Recycling Industry
+                  Solutions for Recycling machines
                   </h4>
+                  <p className="text-secondary px-4 py-2 justify text-lead">Endlos Innovation has developed several solutions for recycling machines, including:</p>
                   <ul>
+                    <span className="fw-bold text-secondary fs-5">Reverse Vending Machines:</span>
                     <li className="lead justify">
-                      Endlos Innovation has a track record of innovation and
-                      success in the recycling industry. Our cutting-edge
-                      solutions have helped businesses and industries become
-                      more sustainable and reduce their carbon footprint. We
-                      have developed state-of-the-art sorting technology,
-                      leveraging robotics and software to streamline and
-                      optimize recycling.
+                    These machines accept empty beverage containers, such as plastic bottles and aluminum cans, and refund customers in exchange for recyclable materials. The reverse vending machines use advanced technology to identify the material and determine its value, which makes the recycling process faster and more efficient.
+
                     </li>
+                    <span className="fw-bold text-secondary fs-5">Organic Waste Composter:</span>
                     <li className="lead justify">
-                      We have also created new products from recycled materials,
-                      contributing to creating a circular economy that conserves
-                      natural resources and reduces waste. Our logistics and
-                      infrastructure solutions ensure efficient and
-                      cost-effective transportation and processing of recycled
-                      materials. With our expertise and commitment to
-                      sustainability, we continue to drive innovation and
-                      success in the recycling industry, creating a better
-                      future for all.
+                    Endlos Innovation has also developed an organic waste composter that can turn food waste into nutrient-rich compost. The machine uses a combination of heat, moisture, and bacteria to break down the organic matter, which can be used to fertilize gardens or agriculture. The composting process is environmentally friendly and helps reduce the amount of waste that goes into landfills.
+
+                    </li>
+                    <span className="fw-bold text-secondary fs-5">Product Vending Machine:</span>
+                    <li className="lead justify">
+                    This machine dispenses reusable water bottles, grocery bags, and other sustainable items. The vending machine encourages customers to adopt eco-friendly habits and reduce their use of single-use plastics. Endlos Innovation's product vending machine also uses innovative technology to track inventory levels and automatically restock products when needed.
                     </li>
                   </ul>
                 </div>
@@ -233,18 +167,14 @@ const page = () => {
                   </small>
                 </div>
                 <p className="lead">
-                  We are experts in the automotive sector and support you in
-                  the further development of your production and logistics
-                  processes with individual production and service concepts.
-                  Discover here a variety of successful endlos solutions in
-                  the automotive industry.
+                Overall, Endlos Innovation's recycling machines offer practical solutions to reduce waste, promote sustainability, and encourage environmental awareness.
                 </p>
-                <div className="py-4">
+                {/* <div className="py-4">
                   <p className="fs-2 text-secondary">
                     You might also be interested in
                   </p>
                   <NewMultiSlider />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
