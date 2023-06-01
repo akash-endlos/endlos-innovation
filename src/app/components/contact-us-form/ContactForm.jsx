@@ -31,9 +31,6 @@ const ContactForm = () => {
     return (
         <div className="contact-us-section pt-5">
             <h1 className="text-center opacity-75">Contact Us</h1>
-            <div className="d-flex justify-content-center align-items-center">
-                <hr style={{ width: "700px" }} />
-            </div>
             <div className="container px-5">
                 <RadioGroup
                     aria-labelledby="demo-controlled-radio-buttons-group"
