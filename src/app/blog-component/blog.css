@@ -38,3 +38,17 @@ text-align: justify;
     width: 500px;
     height: 220px;
 }
+.content-container {
+    height: 400px;
+  }
+  
+  @media (min-width: 1400px) {
+    .content-container {
+      height: 400px;
+    }
+  }
+  /* @media (min-width: 992px) {
+    .content-container {
+      height: 320px;
+    }
+  } */
