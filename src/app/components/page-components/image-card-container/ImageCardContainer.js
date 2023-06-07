@@ -20,7 +20,7 @@ const ImageCardContainer = ({ data }) => {
                     <img
                       src={item.img_src}
                       alt="img1"
-                      className="image-container w-75"
+                      className="image-container img-fluid"
                     />
                   </div>
                   <div className="arrow-on-image pointer">
@@ -30,7 +30,7 @@ const ImageCardContainer = ({ data }) => {
                     </Link> */}
                   </div>
                 </div>
-                <p className="w-75 text-height">{item.subtitle}</p>
+                <p className="text-height">{item.subtitle}</p>
               </Link>
               </div>
             ))}
