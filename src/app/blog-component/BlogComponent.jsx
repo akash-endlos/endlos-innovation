@@ -16,11 +16,11 @@ const BlogComponent = () => {
                     <h4 className='justify pb-4'>{item.title}</h4>
                     <div className='pb-5'>
                       <div className='position-relative'>
-                        <div className="blog-inner">
+                        <div className='inner'>
                           <img
                             src={item.img_src}
                             alt="img1"
-                            className="image-container img-fluid"
+                           className='blog-image-container '
                           />
                         </div>
                         {/* <div className="blog-arrow-on-image">
