@@ -12,6 +12,7 @@ const ImageCardContainer = ({ data }) => {
           {data?.length > 0 &&
             data?.map((item) => (
               <div className="col-lg-12 col-xl-6">
+                <Link href={item.link}>
                 <h4>{item.title}</h4>
                
                 <div className="position-relative pt-5 mb-5">
@@ -23,13 +24,14 @@ const ImageCardContainer = ({ data }) => {
                     />
                   </div>
                   <div className="arrow-on-image pointer">
-                    <Link href={item.link}>
+                    {/* <Link href={item.link}>
                       {" "}
                       <FaArrowCircleRight size={60} />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 <p className="w-75 text-height">{item.subtitle}</p>
+              </Link>
               </div>
             ))}
         </div>
