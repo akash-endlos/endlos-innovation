@@ -23,9 +23,9 @@ const BlogComponent = () => {
                             className="image-container img-fluid"
                           />
                         </div>
-                        <div className="blog-arrow-on-image">
+                        {/* <div className="blog-arrow-on-image">
                           <FaArrowCircleRight size={60} />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <p className='justify'>{item.content}</p>
