@@ -24,9 +24,9 @@ export default function Home() {
         <CatelogWrapper />
         <div className="horizontal-rule" />
       </div>
-      {/* <div className="wrapper-case-studies">
+      <div className="wrapper-case-studies">
        <BlogComponent/>
-      </div> */}
+      </div>
     </div>
   );
 }
