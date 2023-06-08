@@ -13,7 +13,7 @@ const BlogComponent = () => {
         {blogContent.map((item, index) => (
                 <div key={index} className='col-xl-4 py-5'>
                   <div className="blog-item">
-                    <h4 className='justify pb-4'>{item.title}</h4>
+                    <h4 className='justify pb-4 h-50'>{item.title}</h4>
                     <div className='pb-5'>
                       <div className='position-relative'>
                         <div className='inner'>
