@@ -9,11 +9,12 @@ import ImageCardContainer from "../../components/page-components/image-card-cont
 import { Divider } from "@mui/material";
 import { AboutImageCardContainer } from "@/app/all-content/about";
 import Link from "next/link";
+import BlogComponent from "@/app/blog-component/BlogComponent";
 const page = () => {
   let [over, setOver] = React.useState(false);
   return (
     <>
-        <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
+      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -48,7 +49,7 @@ const page = () => {
       <div className="d-flex justify-content-center align-items-center">
         <hr style={{ width: "400px" }} />
       </div>
-      <ImageCardContainer data={AboutImageCardContainer} />
+      <BlogComponent />
       <div className="contact-us-section">
         <img src="/assets/mail.svg" className="mail-middle" />
         <div className="d-flex flex-column align-items-center justify-content-center pb-4">
@@ -62,9 +63,8 @@ const page = () => {
             <div
               onMouseOver={() => setOver(true)}
               onMouseOut={() => setOver(false)}
-              className={`${
-                !over ? "text-secondary" : "contact-us-border"
-              } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
+              className={`${!over ? "text-secondary" : "contact-us-border"
+                } pointer d-flex align-items-center justify-content-center pt-5 pb-4 `}
             >
               <div className=" d-flex align-items-center flex-column gap-2">
                 <div className={` p-3 justify-content-center`}>

@@ -8,7 +8,7 @@ const CatelogWrapper = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-xl-5 col-lg-5 col-sm-12">
-            <img src="/endlos1.jpg" className="img-fluid" alt="endlos" />
+            <img src="/endlos1.png" className="img-fluid" alt="endlos" />
           </div>
           <div className="col-xl-7 col-lg-7 col-sm-12">
             <p className="catelog-paragraph-content lead">
