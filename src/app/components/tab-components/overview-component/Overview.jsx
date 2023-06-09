@@ -7,22 +7,15 @@ import EvenOddImages from "../../even-odd-images-component/EvenOddImages";
 import ProductCarousel from "../../feature/product-carousel/ProductCarousel";
 import NewProductCarousel from "../../feature/product-carousel/NewProductCarousel";
 
-const Overview = ({EvenOddImagesData}) => {
+const Overview = ({ EvenOddImagesData,Description }) => {
   return (
     <>
       <div className="text-center w-75 m-auto px-2 my-5">
-        <p className="fs-4">
+        {/* <p className="fs-4">
           Your first step into high-quality 2D laser processing
-        </p>
+        </p> */}
         <p className="lead">
-          First-className TRUMPF quality and expertise with low investment and
-          operation costs this is what you will get with the machines from the
-          TruLaser Series 1000. Its solid-state laser impresses with its robust
-          design and power that will last for years. The machine also makes the
-          cut with its easy-to-learn operation, as well as numerous intelligent
-          functions. Due to its convenient interfaces, the machines of the
-          TruLaser Series 1000 are also easy to automate or to connect to other
-          machines.
+          {Description}
         </p>
       </div>
       <div className="px-5 my-5">
@@ -106,7 +99,7 @@ const Overview = ({EvenOddImagesData}) => {
       </div>
       <NewProductCarousel />
       {/* <ProductCarousel MarginValue={'mx-5'} /> */}
-      <EvenOddImages EvenOddImagesData={EvenOddImagesData}/>
+      <EvenOddImages EvenOddImagesData={EvenOddImagesData} />
       <div className="d-flex align-items-center justify-content-center">
         <hr style={{ width: "1320px" }} />
       </div>

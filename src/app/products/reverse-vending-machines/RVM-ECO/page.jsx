@@ -16,6 +16,7 @@ import TechnicalComponent from "@/app/components/tab-components/technical-compon
 import { usePathname } from "next/navigation";
 import { rvmEco } from "@/app/all-content/products/rvmEco";
 import { RVMECOEvenOddImagesData } from "@/app/all-content/products/rvmEvenOddImagesData";
+import { rvmEcoDescription } from "@/app/all-content/rvmEcoDescription/rvmEcoDescription";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -106,7 +107,7 @@ const page = () => {
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
-                <Overview EvenOddImagesData={RVMECOEvenOddImagesData} />
+                <Overview Description={rvmEcoDescription} EvenOddImagesData={RVMECOEvenOddImagesData} />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent tableData={rvmEco} />
