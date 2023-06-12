@@ -41,8 +41,8 @@ const page = () => {
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-12">
-              <div className="container pt-5 responsive-container">
-                <div className="d-flex align-items-center px-5 gap-2">
+              <div className="container pt-5 responsive-container px-5">
+                {/* <div className="d-flex align-items-center px-5 gap-2">
                   <p>
                     <span>Home</span> <AiOutlineRight />
                   </p>
@@ -52,12 +52,23 @@ const page = () => {
                   <p>
                     <span>Managing Board</span> <AiOutlineRight />
                   </p>
+                </div> */}
+                <div className="d-flex align-items-center gap-2 flex-wrap">
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Home</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Company</div> <div><AiOutlineRight /></div>
+                  </div>
+                  <div className="d-flex justify-between align-items-center">
+                    <div>Managing Board</div> <div><AiOutlineRight /></div>
+                  </div>
                 </div>
-                <div className="container py-2">
-                  <p className="lead text-center text-dark fs-2">
+                <div className="container py-5">
+                  <p className="lead text-center text-dark fw-bold">
                     Managing Board of Endlos
                   </p>
-                  <p className="lead para-text">
+                  <p className="lead container w-75 justify">
                     Endlos is a family company. And we want it to remain that
                     way. The members of the Managing Board of the holding
                     company ensure continuity and constant development.
