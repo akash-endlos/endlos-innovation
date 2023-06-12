@@ -7,10 +7,8 @@ const OurTeam = ({ team }) => {
     <>
       {team.map((member) => (
         <div className="col-xl-6">
-           {/* <div className="card-deck"></div> */}
-          <div >
-          {/* <div class="card text-center"> */}
-            <div class=" text-center">
+          <div className="card-deck">
+            <div class="card text-center">
               <div className="our-team-image pt-5">
                 <img
                   className="img-responsive rounded-circle w-50 h-75"
