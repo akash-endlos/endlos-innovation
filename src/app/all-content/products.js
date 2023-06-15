@@ -13,11 +13,11 @@ export const ProductsImageCardContainer = [
     img_src: "/assets/img/blog/3.jpg",
     link: "/products/organic-waste-composter",
   },
-  {
-    title: "Product Vending Machine",
-    subtitle:
-      "Our Waste Compactors are designed to streamline waste management processes, minimize waste volume, and optimize space utilization. These compactors compress various types of waste, such as cardboard, plastic, and general waste, into smaller, manageable sizes, reducing the frequency of waste collection and transportation.",
-    img_src: "/assets/img/blog/3.jpg",
-    link: "/products/product-vending-machine",
-  },
+  // {
+  //   title: "Product Vending Machine",
+  //   subtitle:
+  //     "Our Waste Compactors are designed to streamline waste management processes, minimize waste volume, and optimize space utilization. These compactors compress various types of waste, such as cardboard, plastic, and general waste, into smaller, manageable sizes, reducing the frequency of waste collection and transportation.",
+  //   img_src: "/assets/img/blog/3.jpg",
+  //   link: "/products/product-vending-machine",
+  // },
 ];

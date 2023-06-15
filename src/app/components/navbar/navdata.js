@@ -167,26 +167,26 @@ export const ProductsDropdown = [
           },
         ],
       },
-      {
-        id: 4,
-        parentItem: "Product Vending Machine",
-        link: "/products/product-vending-machine",
-        subchildren: [
-          {
-            key: "Product Vending Machine",
-            children: [
-              {
-                subchildItem: "Product Vending Machine",
-                link: "/products/product-vending-machine",
-              },
-              {
-                subchildItem: "Mask Vending Machine",
-                link: "/products/product-vending-machine/mask-vending-machine",
-              },
-            ],
-          },
-        ],
-      },
+      // {
+      //   id: 4,
+      //   parentItem: "Product Vending Machine",
+      //   link: "/products/product-vending-machine",
+      //   subchildren: [
+      //     {
+      //       key: "Product Vending Machine",
+      //       children: [
+      //         {
+      //           subchildItem: "Product Vending Machine",
+      //           link: "/products/product-vending-machine",
+      //         },
+      //         {
+      //           subchildItem: "Mask Vending Machine",
+      //           link: "/products/product-vending-machine/mask-vending-machine",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
     ],
   },
 ];
