@@ -13,7 +13,7 @@ export const blogContent =[
     },
     {
       "title": "The Convenience of Product Vending Machines: How They Are Changing the Way We Shop",
-      "img_src":"/assets/img/blog/3.jpg",
+      "img_src":"/assets/img/blog-third-reverse-vending-machine.jpg",
       "content": "The retail industry has undergone significant changes recently, with new technologies emerging to enhance the shopping experience. One such technology that is rapidly gaining popularity is the product vending machine. These machines offer customers a convenient and accessible way to purchase products anytime and anywhere.",
       link:"How They Are Changing the Way We Shop"
     }
