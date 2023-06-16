@@ -40,14 +40,14 @@ export const IndustriesImageCardContainer = [
     title: "Recycling Machines",
     subtitle:
       "At Endlos Innovation, we are committed to promoting sustainable business practices and environmental stewardship. We have invested in state-of-the-art recycling machines to help reduce waste and encourage recycling.",
-    img_src: "/assets/img/1.jpg",
+    img_src: "/assets/img/RVMfamily_1600x900.jpg",
     link: "/industries/recycling-machines",
   },
   {
     title: "Solid Waste Management",
     subtitle:
       "We understand the importance of proper solid waste management and its environmental impact. That's why we offer comprehensive, dependable waste management services to help you effectively manage your waste while minimizing your environmental footprint.",
-    img_src: "/assets/img/1.jpg",
+    img_src: "/assets/img/OWC_family_1600x900.jpg",
     link: "/industries/solid-waste-management",
   },
   // {
@@ -61,7 +61,7 @@ export const IndustriesImageCardContainer = [
     title: "Hospitality Case Goods",
     subtitle:
       "We are committed to providing high-quality hospitality case goods that meet your business's unique needs and requirements. We understand that every hospitality project is different, so we offer various custom case goods tailored to your needs.",
-    img_src: "/assets/img/1.jpg",
+    img_src: "/assets/img/furniture.jpg",
     link: "/industries/hospitality-case-goods",
   },
 ];
