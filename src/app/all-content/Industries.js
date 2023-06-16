@@ -50,13 +50,13 @@ export const IndustriesImageCardContainer = [
     img_src: "/assets/img/1.jpg",
     link: "/industries/solid-waste-management",
   },
-  {
-    title: "Vending Machines",
-    subtitle:
-      "Our vending machines are designed to offer various products and services, including snacks, beverages, and fresh food items. We use the latest technology to ensure that our machines are easy to operate and maintain and offer your customers a seamless and enjoyable user experience.",
-    img_src: "/assets/img/1.jpg",
-    link: "/industries/vending-machines",
-  },
+  // {
+  //   title: "Vending Machines",
+  //   subtitle:
+  //     "Our vending machines are designed to offer various products and services, including snacks, beverages, and fresh food items. We use the latest technology to ensure that our machines are easy to operate and maintain and offer your customers a seamless and enjoyable user experience.",
+  //   img_src: "/assets/img/1.jpg",
+  //   link: "/industries/vending-machines",
+  // },
   {
     title: "Hospitality Case Goods",
     subtitle:
