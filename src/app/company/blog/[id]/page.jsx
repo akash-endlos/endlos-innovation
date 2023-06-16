@@ -11,10 +11,39 @@ import bg from '../../../../../public/assets/img/RVMfamily_1600x900.jpg'
 import BlogPageFirst from "@/app/blog-page-component/BlogPageFirst";
 import BlogSecond from "@/app/blog-page-component/BlogSecond";
 import BlogPageThird from "@/app/blog-page-component/BlogPageThird";
-const page = () => {
+import { usePathname, useRouter } from "next/navigation";
+
+// import { useRouter } from 'next/navigation';
+const page = ({params}) => {
   let [over, setOver] = React.useState(false);
   const [position, setPosition] = useState(0);
   const [visible, setVisible] = useState(true);
+  console.log(params.id=='44a4bxedxPwGQtSnEzGzdejnCdtrDJqkJ6uqWwGbXmdx5zrjGdHivmr9pyd7x8rVQMgumwGPCfuwseieCg8tuN5jNNeMJPU');
+ const RenderBlog=()=>{
+  if(params.id=='The%20Benefits%20of%20Reverse%20Vending%20Machines%20for%20Sustainable%20Waste%20Management'){
+      return (<BlogPageFirst/>)
+  }
+  if(params.id=='Revolutionizing%20Recycling:%20How%20Reverse%20Vending%20Machines%20Are%20Changing%20the%20Game'){
+    return (<BlogSecond/>)
+}
+if(params.id=='The%20Convenience%20of%20Product%20Vending%20Machines:%20How%20They%20Are%20Changing%20the%20Way%20We%20Shop'){
+  return (<BlogPageThird/>)
+}
+ }
+
+// const BlogById = () => {
+//   switch (params.id) {
+//     case "The%20Benefits%20of%20Reverse%20Vending%20Machines%20for%20Sustainable%20Waste%20Management":
+//       return (<BlogPageFirst/>)
+//     case "44a4bxedxPwGQtSnEzGzdejnCdtrDJqkJ6uqWwGbXmdx5zrjGdHivmr9pyd7x8rVQMgumwGPCfuwseieCg8tuN5jNNeMJPU":
+//       return (<BlogSecond/>)
+//     case "The%20Convenience%20of%20Product%20Vending%20Machines:%20How%20They%20Are%20Changing%20the%20Way%20We%20Shop":
+//       return (<BlogPageThird/>)
+//     default:
+//       break;
+//   }
+// }
+  
   useEffect(() => {
     const handleScroll = () => {
       let moving = scrollY;
@@ -41,7 +70,8 @@ const page = () => {
       </div>
       {/* <BlogPageFirst/> */}
       {/* <BlogSecond/> */}
-      <BlogPageThird/>
+      {/* <BlogPageThird/> */}
+      {RenderBlog()}
       <div className="contact-us-section">
         <img src="/assets/mail.svg" className="mail-middle" />
         <div className="d-flex flex-column align-items-center justify-content-center pb-4">
