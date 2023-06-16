@@ -1,13 +1,13 @@
 export const blogContent =[
     {
       "title": "The Benefits of Reverse Vending Machines for Sustainable Waste Management",
-      "img_src":"/assets/img/blog/3.jpg",
+      "img_src":"/assets/img/blog-first-reverse-vending-machine.jpg",
       "content": "Reverse vending machines are a revolutionary technology that has the potential to transform the way we manage waste. These machines work by accepting used containers such as plastic bottles, glass bottles, and aluminum cans and then giving refunds or rewards to users in exchange for these containers. This incentivizes people to recycle and reduce waste, promoting sustainable waste management practices.",
       link:"The Benefits of Reverse Vending Machines for Sustainable Waste Management"
     },
     {
       "title": "Revolutionizing Recycling: How Reverse Vending Machines Are Changing the Game",
-      "img_src":"/assets/img/blog/3.jpg",
+      "img_src":"/assets/img/blog-second-reverse-vending-machine.jpg",
       "content": "Recycling has long been considered one of the most effective ways to reduce waste and conserve resources. However, traditional recycling methods can be time-consuming and inconvenient and often fail to incentivize people to recycle. Enter reverse vending machines - a game-changing technology revolutionizing the recycling industry.",
       link:"How Reverse Vending Machines Are Changing the Game"
     },
