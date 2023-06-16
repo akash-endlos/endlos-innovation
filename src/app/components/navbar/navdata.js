@@ -27,7 +27,7 @@ export const navbar = [
 export const HomeDropdown = [
   {
     key: "Industries",
-    img: "/assets/img/blog/3.jpg",
+    img: "/assets/img/sm_industries.jpg",
     title: "Industries",
     paragraph:
       "Get an overview of all industries that benefit from our wide product range. You will also find various case studies about customer projects that drive our customers’ success",
@@ -81,7 +81,7 @@ export const HomeDropdown = [
 export const ProductsDropdown = [
   {
     key: "Products",
-    img: "/assets/img/blog/3.jpg",
+    img: "/assets/img/sm_products.jpg",
     title: "Products",
     paragraph:
       "Get an overview of all industries that benefit from our wide product range. You will also find various case studies about customer projects that drive our customers’ success",
