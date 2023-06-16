@@ -6,7 +6,7 @@ import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import NewMultiSlider from "@/app/components/multi-slider-images/NewMultiSlider";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/img/RVMfamily_1600x900.jpg'
 
 const page = () => {
   let [over, setOver] = React.useState(false);

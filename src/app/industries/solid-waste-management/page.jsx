@@ -6,7 +6,7 @@ import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import NewMultiSlider from "@/app/components/multi-slider-images/NewMultiSlider";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/img/OWC_family_1600x900.jpg'
 import ContactForm from "@/app/components/contact-us-form/ContactForm";
 
 const page = () => {
@@ -32,7 +32,7 @@ const page = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 className="text-white font-weight-bold fs-1">Solid Waste Management</h1>
+              <h1 className="text-secondary font-weight-bold fs-1">Solid Waste Management</h1>
             </div>
           </div>
         </div>

@@ -65,11 +65,11 @@ export const HomeDropdown = [
         parentItem: "Solid Waste Management",
         link: "/industries/solid-waste-management",
       },
-      {
-        id: 4,
-        parentItem: "Vending Machines",
-        link: "/industries/vending-machines",
-      },
+      // {
+      //   id: 4,
+      //   parentItem: "Vending Machines",
+      //   link: "/industries/vending-machines",
+      // },
       {
         id: 5,
         parentItem: "Hospitality Case Goods",
