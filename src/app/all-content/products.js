@@ -3,14 +3,14 @@ export const ProductsImageCardContainer = [
     title: "Reverse Vending Machines",
     subtitle:
       "Our Reverse Vending Machines are innovative systems that encourage recycling by providing a convenient and rewarding experience. These machines accept empty beverage containers and give incentives, such as coupons or redeemable points, in return. By promoting recycling and increasing awareness, our Reverse Vending Machines help reduce landfill waste and promote a more sustainable future.",
-    img_src: "/assets/img/blog/3.jpg",
+    img_src: "/assets/img/RVMfamily_1600x900.jpg",
     link: "/products/reverse-vending-machines",
   },
   {
     title: "Organic Waste Composter",
     subtitle:
       "Our Organic Waste Composters offer a sustainable solution for managing organic waste. These systems efficiently convert food scraps, kitchen waste, and other organic materials into nutrient-rich compost. By diverting organic waste from landfills, our composters contribute to reducing greenhouse gas emissions and supporting circular economy practices.",
-    img_src: "/assets/img/blog/3.jpg",
+    img_src: "/assets/img/OWC_family_1600x900.jpg",
     link: "/products/organic-waste-composter",
   },
   // {

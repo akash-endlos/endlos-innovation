@@ -7,23 +7,36 @@ import { Divider } from "@mui/material";
 import { ImMail4 } from "react-icons/im";
 import Link from "next/link";
 import { ProductsImageCardContainer } from "../all-content/products";
-import bg from '../../../public/assets/1.jpg'
+import bg from '../../../public/assets/products.jpg'
 import ContactForm from "../components/contact-us-form/ContactForm";
 
 const Industries = () => {
   let [over, setOver] = React.useState(false);
+  const backgroundImageStyle = {
+    backgroundImage: `url(${bg.src})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    height: '600px',
+    position: 'relative'
+  };
+
+  const contentStyle = {
+    padding: '20px',
+    position: 'absolute',
+    bottom: '0',
+    left: '0',
+    right: '0',
+    margin: 'auto',
+  };
 
   return (
     <div className="endlos-container">
-      <div className="bg-image d-flex align-items-center" style={{ backgroundImage: `url(${bg.src})` }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <h1 className="text-white font-weight-bold fs-1">Products</h1>
-            </div>
-          </div>
-        </div>
+   <div style={backgroundImageStyle}>
+      <div style={contentStyle}>
+        <h1 className="text-white">Products</h1>
       </div>
+    </div>
+
       <div className="d-flex align-items-center justify-content-center pt-5 pb-4">
         <p className="container text-justify fs-5 text-secondary">
           Welcome to Endlos Innovation, where we present our cutting-edge solutions for waste management and recycling. Explore our range of Reverse Vending Machines, Organic Waste Composters, and Waste Compactors to revolutionize your waste management practices.
@@ -35,7 +48,7 @@ const Industries = () => {
         <p className="lead justify text-secondary">Contact us today to discuss your waste management requirements and explore how our Reverse Vending Machines, Organic Waste Composters, and Waste Compactors can transform your waste management practices.
         </p>
       </div>
-      <ContactForm/>
+      <ContactForm />
       {/* <div className="contact-us-section">
         <img src="/assets/mail.svg" className="mail-middle" />
         <div className="d-flex flex-column align-items-center justify-content-center pb-4">
