@@ -12,7 +12,7 @@ const BlogComponent = () => {
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <div class="d-flex align-items-center blog-inner">
-                <img src={item.img_src} height='500px' width='220px' alt="img1" class="blog-image-container img-fluid" />
+                <img src={item.img_src} alt="img1" height='220px' width='500px' />
               </div>
             </div>
             <div class="col-sm-12 col-md-6">
