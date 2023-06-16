@@ -10,6 +10,7 @@ import NewMultiSlider from "@/app/components/multi-slider-images/NewMultiSlider"
 import bg from '../../../../../public/assets/img/RVMfamily_1600x900.jpg'
 import BlogPageFirst from "@/app/blog-page-component/BlogPageFirst";
 import BlogSecond from "@/app/blog-page-component/BlogSecond";
+import BlogPageThird from "@/app/blog-page-component/BlogPageThird";
 const page = () => {
   let [over, setOver] = React.useState(false);
   const [position, setPosition] = useState(0);
@@ -39,7 +40,8 @@ const page = () => {
         </div>
       </div>
       {/* <BlogPageFirst/> */}
-      <BlogSecond/>
+      {/* <BlogSecond/> */}
+      <BlogPageThird/>
       <div className="contact-us-section">
         <img src="/assets/mail.svg" className="mail-middle" />
         <div className="d-flex flex-column align-items-center justify-content-center pb-4">
