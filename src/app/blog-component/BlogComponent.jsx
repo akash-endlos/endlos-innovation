@@ -7,6 +7,9 @@ import { blogContent } from '../all-content/blogContent';
 const BlogComponent = () => {
   return (
     <div >
+      <hr/>
+      <h1 className='text-center'>BLOG</h1>
+      <hr/>
       {blogContent.map((item, index) => (
         <div class="container py-5">
           <div class="row">

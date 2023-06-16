@@ -18,11 +18,11 @@ export default function Home() {
       <SwiperCarousel data={IndustriesCarouselSection} />
       <div className="wrapper-case-studies py-5">
         <UpperContainer data={IndustriesUpperContainer} />
-        <div className="horizontal-rule" />
+        <hr className="mt-5"/>
+      <h1 className='text-center'>Products</h1>
+      <hr className="mb-5"/>
         <ImageCardContainer data={IndustriesImageCardContainer} />
-        <div className="horizontal-rule" />
         <CatelogWrapper />
-        <div className="horizontal-rule" />
       </div>
       <div className="wrapper-case-studies">
        <BlogComponent/>
