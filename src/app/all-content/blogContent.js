@@ -9,13 +9,13 @@ export const blogContent =[
       "title": "Revolutionizing Recycling: How Reverse Vending Machines Are Changing the Game",
       "img_src":"/assets/img/blog/3.jpg",
       "content": "Recycling has long been considered one of the most effective ways to reduce waste and conserve resources. However, traditional recycling methods can be time-consuming and inconvenient and often fail to incentivize people to recycle. Enter reverse vending machines - a game-changing technology revolutionizing the recycling industry.",
-      link:"Revolutionizing Recycling: How Reverse Vending Machines Are Changing the Game"
+      link:"How Reverse Vending Machines Are Changing the Game"
     },
     {
       "title": "The Convenience of Product Vending Machines: How They Are Changing the Way We Shop",
       "img_src":"/assets/img/blog/3.jpg",
       "content": "The retail industry has undergone significant changes recently, with new technologies emerging to enhance the shopping experience. One such technology that is rapidly gaining popularity is the product vending machine. These machines offer customers a convenient and accessible way to purchase products anytime and anywhere.",
-      link:"The Convenience of Product Vending Machines: How They Are Changing the Way We Shop"
+      link:"How They Are Changing the Way We Shop"
     }
   ]
   
