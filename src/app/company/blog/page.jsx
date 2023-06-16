@@ -4,7 +4,7 @@ import "./blog.css";
 import Image from "next/image";
 import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/blog.jpg'
 import ImageCardContainer from "../../components/page-components/image-card-container/ImageCardContainer";
 import { Divider } from "@mui/material";
 import { AboutImageCardContainer } from "@/app/all-content/about";
@@ -45,9 +45,6 @@ const page = () => {
             needs of consumers, businesses, and the environment worldwide.
           </p>
         </div>
-      </div>
-      <div className="d-flex justify-content-center align-items-center">
-        <hr style={{ width: "400px" }} />
       </div>
       <BlogComponent />
       <div className="contact-us-section">

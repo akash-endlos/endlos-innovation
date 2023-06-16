@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./contact-us.css";
 import Image from "next/image";
 import { AiOutlineRight } from "react-icons/ai";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/contactuss.jpg'
 import {
   Box,
   Button,

@@ -7,7 +7,7 @@ import { ImMail4 } from "react-icons/im";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Divider } from "@mui/material";
 import Link from "next/link";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/career.jpg'
 import ContactForm from "@/app/components/contact-us-form/ContactForm";
 
 const page = () => {
