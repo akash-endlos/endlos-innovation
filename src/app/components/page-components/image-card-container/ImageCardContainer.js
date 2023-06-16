@@ -20,7 +20,7 @@ const ImageCardContainer = ({ data }) => {
                       <img
                         src={item.img_src}
                         alt="img1"
-                        className="image-container img-fluid"
+                        className="image-container "
                       />
                     </div>
                     <div className="arrow-on-image pointer">
