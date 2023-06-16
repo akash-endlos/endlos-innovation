@@ -11,7 +11,7 @@ const BlogComponent = () => {
         <div class="container py-5">
           <div class="row">
             <div class="col-sm-12 col-md-6">
-              <div class="d-flex align-items-center inner">
+              <div class="d-flex align-items-center blog-inner">
                 <img src={item.img_src} alt="img1" class="blog-image-container img-fluid" />
               </div>
             </div>
