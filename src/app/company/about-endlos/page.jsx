@@ -4,7 +4,7 @@ import "./about-endlos.css";
 import Image from "next/image";
 import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/about-us.jpg'
 import ImageCardContainer from "../../components/page-components/image-card-container/ImageCardContainer";
 import { Divider } from "@mui/material";
 import { AboutImageCardContainer } from "@/app/all-content/about";

@@ -7,7 +7,7 @@ import { ImMail4 } from "react-icons/im";
 import { Divider } from "@mui/material";
 import OurTeam from "@/app/components/our-team-container/OurTeam";
 import { OurTeamMembers } from "@/app/all-content/our-team";
-import bg from '../../../../public/assets/1.jpg'
+import bg from '../../../../public/assets/our-team.jpg'
 
 const page = () => {
   let [over, setOver] = React.useState(false);
