@@ -3,6 +3,7 @@ import React from 'react'
 import { FaArrowCircleRight } from "react-icons/fa";
 import './blog.css'
 import { blogContent } from '../all-content/blogContent';
+import Link from 'next/link';
 
 const BlogComponent = () => {
   return (
@@ -13,10 +14,12 @@ const BlogComponent = () => {
       {blogContent.map((item, index) => (
         <div class="container py-5">
           <div class="row">
-            <div class="col-sm-12 col-md-6">
+           <div class="col-sm-12 col-md-6">
+           <Link href='/company/blog/1'>
               <div class="d-flex align-items-center blog-inner">
                 <img src={item.img_src} alt="img1" height='220px' width='500px' />
               </div>
+           </Link>
             </div>
             <div class="col-sm-12 col-md-6">
               <h4 class="justify h-auto">{item.title}</h4>
