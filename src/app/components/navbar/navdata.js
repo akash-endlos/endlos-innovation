@@ -194,7 +194,7 @@ export const ProductsDropdown = [
 export const CompanyDropdown = [
   {
     key: "Company",
-    img: "/assets/img/blog/3.jpg",
+    img: "/assets/img/company.jpg",
     title: "Company",
     paragraph:
       "Get an overview of all industries that benefit from our wide product range. You will also find various case studies about customer projects that drive our customers’ success",
