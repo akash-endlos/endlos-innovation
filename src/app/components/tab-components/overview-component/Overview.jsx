@@ -6,6 +6,7 @@ import { AiOutlineRead } from "react-icons/ai";
 import EvenOddImages from "../../even-odd-images-component/EvenOddImages";
 import ProductCarousel from "../../feature/product-carousel/ProductCarousel";
 import NewProductCarousel from "../../feature/product-carousel/NewProductCarousel";
+import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmEcoVideo";
 
 const Overview = ({ EvenOddImagesData,Description }) => {
   return (
@@ -97,7 +98,7 @@ const Overview = ({ EvenOddImagesData,Description }) => {
           </div>
         </div>
       </div>
-      <NewProductCarousel />
+      <NewProductCarousel productVideo={rvmEcoVideo}/>
       {/* <ProductCarousel MarginValue={'mx-5'} /> */}
       <EvenOddImages EvenOddImagesData={EvenOddImagesData} />
       <div className="d-flex align-items-center justify-content-center">
