@@ -11,7 +11,7 @@ const OurTeam = ({ team }) => {
             <div class="card text-center">
               <div className="our-team-image pt-5">
                 <img
-                  className="img-responsive rounded-circle w-50 h-75"
+                  className="img-responsive rounded-circle w-50 h-75 object-fit-cover"
                   src={member.src}
                   alt="Avatar"
                 />
