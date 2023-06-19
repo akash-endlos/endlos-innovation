@@ -36,7 +36,7 @@ const page = () => {
           </p>
         </div>
         <div className="container py-2">
-          <p className="para-text">
+          <p className="justify lead">
             Endlos Innovation was established in 2018, specializing in an
             environmental services-based company with 50+ employees. We are a
             leading provider of innovative solutions such as Reverse Vending
