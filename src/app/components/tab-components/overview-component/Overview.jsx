@@ -8,7 +8,7 @@ import ProductCarousel from "../../feature/product-carousel/ProductCarousel";
 import NewProductCarousel from "../../feature/product-carousel/NewProductCarousel";
 import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmEcoVideo";
 
-const Overview = ({ EvenOddImagesData,Description }) => {
+const Overview = ({ EvenOddImagesData,Description,productVideos }) => {
   return (
     <>
       <div className="text-center w-75 m-auto px-2 my-5">
@@ -98,7 +98,7 @@ const Overview = ({ EvenOddImagesData,Description }) => {
           </div>
         </div>
       </div>
-      <NewProductCarousel productVideo={rvmEcoVideo}/>
+      <NewProductCarousel productVideo={productVideos}/>
       {/* <ProductCarousel MarginValue={'mx-5'} /> */}
       <EvenOddImages EvenOddImagesData={EvenOddImagesData} />
       <div className="d-flex align-items-center justify-content-center">
