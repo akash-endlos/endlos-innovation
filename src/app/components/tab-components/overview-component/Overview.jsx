@@ -6,7 +6,7 @@ import { AiOutlineRead } from "react-icons/ai";
 import EvenOddImages from "../../even-odd-images-component/EvenOddImages";
 import ProductCarousel from "../../feature/product-carousel/ProductCarousel";
 import NewProductCarousel from "../../feature/product-carousel/NewProductCarousel";
-import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmEcoVideo";
+import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmVideo";
 
 const Overview = ({ EvenOddImagesData,Description,productVideos }) => {
   return (

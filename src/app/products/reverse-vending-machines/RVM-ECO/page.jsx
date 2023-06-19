@@ -17,7 +17,7 @@ import { usePathname } from "next/navigation";
 import { rvmEco } from "@/app/all-content/products/rvmEco";
 import { RVMECOEvenOddImagesData } from "@/app/all-content/products/rvmEvenOddImagesData";
 import { rvmEcoDescription } from "@/app/all-content/rvmEcoDescription/rvmEcoDescription";
-import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmEcoVideo";
+import { rvmEcoVideo } from "@/app/all-content/productVideoContainer/rvmVideo";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
