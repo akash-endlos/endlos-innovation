@@ -225,7 +225,7 @@ const Page = () => {
           <strong className="my-5">Consent*</strong>
         </Grid>
         <Grid item xs={12}>
-          <Button type="submit" variant="contained" color="primary">
+          <Button type="submit" className="form-btn" variant="contained" color="primary">
             Submit
           </Button>
         </Grid>
