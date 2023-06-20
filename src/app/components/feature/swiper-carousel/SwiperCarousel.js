@@ -27,6 +27,7 @@ const SwiperCarousel = ({ data }) => {
           delay: 5000,
           disableOnInteraction: false,
         }}
+        loop={true}
         pagination={pagination}
         slidesPerView={1}
         modules={[Autoplay, Pagination, Navigation]}
