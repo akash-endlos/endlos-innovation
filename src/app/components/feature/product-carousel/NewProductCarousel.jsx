@@ -20,7 +20,7 @@ const NewProductCarousel = ({ textAlign,productVideo }) => {
           <div key={index}>
           <video
             src={item.video_src}
-            className="video-container"
+            // className="video-container"
             autoPlay
             loop
             muted
