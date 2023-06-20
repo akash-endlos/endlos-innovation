@@ -24,6 +24,7 @@ import NewProductCarousel from "@/app/components/feature/product-carousel/NewPro
 import { FaSquare } from "react-icons/fa";
 import { rvmDRSNEW35 } from "@/app/all-content/products/rvmDRS35NEW";
 import { rvmDRS35EvenOddImageData } from "@/app/all-content/products/rvmDRS35EvenOddImages";
+import { rvmDRS35Video } from "@/app/all-content/productVideoContainer/rvmVideo";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -114,7 +115,7 @@ const page = () => {
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
-              <Overview EvenOddImagesData={rvmDRS35EvenOddImageData} />
+              <Overview productVideos={rvmDRS35Video} EvenOddImagesData={rvmDRS35EvenOddImageData} />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent tableData={rvmDRSNEW35} />

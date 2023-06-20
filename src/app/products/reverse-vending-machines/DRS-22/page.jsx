@@ -25,6 +25,7 @@ import { FaSquare } from "react-icons/fa";
 import { rvmDRS22 } from "@/app/all-content/products/rvmDRS22";
 import { rvmproEvenOddImageData } from "@/app/all-content/products/rvmproEvenOddImageData";
 import { rvmDRS22EvenOddImageData } from "@/app/all-content/products/rvmDRS22EvenOddImageData";
+import { rvmDRS22Video } from "@/app/all-content/productVideoContainer/rvmVideo";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -129,7 +130,7 @@ const page = () => {
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>
-              <Overview EvenOddImagesData={rvmDRS22EvenOddImageData} />
+              <Overview productVideos={rvmDRS22Video} EvenOddImagesData={rvmDRS22EvenOddImageData} />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TechnicalComponent tableData={rvmDRS22} />
