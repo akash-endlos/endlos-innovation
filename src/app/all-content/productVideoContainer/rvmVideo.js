@@ -64,14 +64,30 @@ export const rvmDRS11Video = [
 
 export const rvmDRS22Video = [
     {
-        video_src: "/assets/products/eco/Plastic_bottle_passsing.mp4",
+        video_src: "/assets/products/DRS-22/RVM_DRS_22_om.mp4",
+        video_desc: "Energy-efficient process cooler"
+    },
+    {
+        video_src: "/assets/products/DRS-22/RVM_DRS_22_bin_video.mp4",
+        video_desc: "Energy-efficient process cooler"
+    },
+    {
+        video_src: "/assets/products/DRS-22/RVM_DRS_22_full_video.mp4",
         video_desc: "Energy-efficient process cooler"
     },
 ]
 
 export const rvmDRS35Video = [
     {
-        video_src: "/assets/products/eco/Plastic_bottle_passsing.mp4",
+        video_src: "/assets/products/DRS-35/RVM_DRS_35_om.mp4",
+        video_desc: "Energy-efficient process cooler"
+    },
+    {
+        video_src: "/assets/products/DRS-35/RVM_DRS_35_full_video.mp4",
+        video_desc: "Energy-efficient process cooler"
+    },
+    {
+        video_src: "/assets/products/DRS-35/RVM_DRS_35_bin_video.mp4",
         video_desc: "Energy-efficient process cooler"
     },
 ]
