@@ -58,7 +58,6 @@ const page = () => {
           </div>
           <p className="fs-5">Sales</p>
          <p> Phone<a href=""> +91 97278 02087</a></p>
-          {/* <p>Fax 020 6675 9899</p> */}
           <span className="text-success pointer">
             Email <BsArrowRight />{" "}
             info@endlos.in

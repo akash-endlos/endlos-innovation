@@ -57,20 +57,20 @@ const page = () => {
       <div className="final-product-page-container">
         <div className="row">
           <div className="col-lg-9 py-5">
-          <div className="d-flex align-items-center gap-2 flex-wrap px-5 py-5">
-                  <div className="d-flex justify-between align-items-center">
-                    <div>Home</div> <div><AiOutlineRight /></div>
-                  </div>
-                  <div className="d-flex justify-between align-items-center">
-                    <div>Products</div> <div><AiOutlineRight /></div>
-                  </div>
-                  <div className="d-flex justify-between align-items-center">
-                    <div>Reverse Vending Machine</div> <div><AiOutlineRight /></div>
-                  </div>
-                  <div className="d-flex justify-between align-items-center">
-                    <div>RVM ECO</div> <div><AiOutlineRight /></div>
-                  </div>
-                </div>
+            <div className="d-flex align-items-center gap-2 flex-wrap px-5 py-5">
+              <div className="d-flex justify-between align-items-center">
+                <div>Home</div> <div><AiOutlineRight /></div>
+              </div>
+              <div className="d-flex justify-between align-items-center">
+                <div>Products</div> <div><AiOutlineRight /></div>
+              </div>
+              <div className="d-flex justify-between align-items-center">
+                <div>Reverse Vending Machine</div> <div><AiOutlineRight /></div>
+              </div>
+              <div className="d-flex justify-between align-items-center">
+                <div>RVM ECO</div> <div><AiOutlineRight /></div>
+              </div>
+            </div>
             <div className="position-relative">
               <img
                 src="/images/RVM_eco_1440x678_2.jpg"
@@ -122,14 +122,10 @@ const page = () => {
                 <hr style={{ width: "500px" }} />
               </div>
               <p className="fs-5">Sales</p>
-              <a href="">
-                <soan>Phone </soan> 020 6675 9800
-              </a>
-              <p>
-                <span>Email </span> info@endlos.in
-              </p>
+              <p> Phone<a href=""> +91 97278 02087</a></p>
               <span className="text-success pointer">
                 Email <BsArrowRight />{" "}
+                <a href="mailto:info@endlos.in">info@endlos.in</a>
               </span>
               <div className="mt-4">
                 <p className="fs-4"> Downloads</p>
