@@ -57,12 +57,13 @@ const page = () => {
             <hr style={{ width: "500px" }} />
           </div>
           <p className="fs-5">Sales</p>
-          <a href="">Phone 020 6675 9800</a>
-          <p>Fax 020 6675 9899</p>
+         <p> Phone<a href=""> +91 97278 02087</a></p>
+          {/* <p>Fax 020 6675 9899</p> */}
           <span className="text-success pointer">
             Email <BsArrowRight />{" "}
+            info@endlos.in
           </span>
-          <div className="mt-4 ">
+          {/* <div className="mt-4 ">
             <p className="fs-4">Services</p>
             <div className="d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center">
               <hr style={{ width: "500px" }} />
@@ -103,7 +104,7 @@ const page = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="mt-4">
             <p className="fs-4"> Downloads</p>
             <div className="d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center">
