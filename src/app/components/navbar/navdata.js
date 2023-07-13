@@ -131,42 +131,42 @@ export const ProductsDropdown = [
           },
         ],
       },
-      {
-        id: 3,
-        parentItem: "Organic Waste Composter",
-        link: "/products/organic-waste-composter",
-        subchildren: [
-          {
-            key: "Organic Waste Composter",
-            children: [
-              {
-                subchildItem: "Organic Waste Composter",
-                link: "/products/organic-waste-composter",
-              },
-              {
-                subchildItem: "END OWC 50",
-                link: "/products/organic-waste-composter/OWC-50",
-              },
-              {
-                subchildItem: "END OWC 100",
-                link: "/products/organic-waste-composter/OWC-100",
-              },
-              {
-                subchildItem: "END OWC 300",
-                link: "/products/organic-waste-composter/OWC-300",
-              },
-              {
-                subchildItem: "END OWC 500",
-                link: "/products/organic-waste-composter/OWC-500",
-              },
-              {
-                subchildItem: "END OWC 1000",
-                link: "/products/organic-waste-composter/OWC-1000",
-              },
-            ],
-          },
-        ],
-      },
+      // {
+      //   id: 3,
+      //   parentItem: "Organic Waste Composter",
+      //   link: "/products/organic-waste-composter",
+      //   subchildren: [
+      //     {
+      //       key: "Organic Waste Composter",
+      //       children: [
+      //         {
+      //           subchildItem: "Organic Waste Composter",
+      //           link: "/products/organic-waste-composter",
+      //         },
+      //         {
+      //           subchildItem: "END OWC 50",
+      //           link: "/products/organic-waste-composter/OWC-50",
+      //         },
+      //         {
+      //           subchildItem: "END OWC 100",
+      //           link: "/products/organic-waste-composter/OWC-100",
+      //         },
+      //         {
+      //           subchildItem: "END OWC 300",
+      //           link: "/products/organic-waste-composter/OWC-300",
+      //         },
+      //         {
+      //           subchildItem: "END OWC 500",
+      //           link: "/products/organic-waste-composter/OWC-500",
+      //         },
+      //         {
+      //           subchildItem: "END OWC 1000",
+      //           link: "/products/organic-waste-composter/OWC-1000",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
       // {
       //   id: 4,
       //   parentItem: "Product Vending Machine",
