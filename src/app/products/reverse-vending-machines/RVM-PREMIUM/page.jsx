@@ -16,6 +16,7 @@ import { usePathname } from "next/navigation";
 import { rvmPremium } from "@/app/all-content/products/rvmPremium";
 import { rvmPremiumEvenOddImageData } from "@/app/all-content/products/rvmPremiumEvenOddImageData";
 import { rvmPremiumVideo } from "@/app/all-content/productVideoContainer/rvmVideo";
+import ContactBrochure from "@/app/components/contact-brochure/ContactBrochure";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -113,7 +114,8 @@ const page = () => {
               </TabPanel>
             </Box>
           </div>
-          <div className="col-lg-3 mt-4 mt-lg-0">
+          <ContactBrochure/>
+          {/* <div className="col-lg-3 mt-4 mt-lg-0">
             <div className="p-5">
               <p className="fs-4"> Contact</p>
               <div className="d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center">
@@ -148,7 +150,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

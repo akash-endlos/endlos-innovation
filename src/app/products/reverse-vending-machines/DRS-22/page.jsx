@@ -26,6 +26,7 @@ import { rvmDRS22 } from "@/app/all-content/products/rvmDRS22";
 import { rvmproEvenOddImageData } from "@/app/all-content/products/rvmproEvenOddImageData";
 import { rvmDRS22EvenOddImageData } from "@/app/all-content/products/rvmDRS22EvenOddImageData";
 import { rvmDRS22Video } from "@/app/all-content/productVideoContainer/rvmVideo";
+import ContactBrochure from "@/app/components/contact-brochure/ContactBrochure";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -140,7 +141,8 @@ const page = () => {
               </TabPanel>
             </Box>
           </div>
-          <div className="col-lg-3 mt-4 mt-lg-0">
+          <ContactBrochure/>
+          {/* <div className="col-lg-3 mt-4 mt-lg-0">
             <div className="p-5">
               <p className="fs-4"> Contact</p>
               <div className="d-flex justify-content-lg-start justify-content-md-start justify-content-center align-items-center">
@@ -175,7 +177,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
